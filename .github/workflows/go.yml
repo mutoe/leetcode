@@ -8,7 +8,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: actions/setup-go@v2
         with:
           go-version: '^1.14.2'
-      - run: go test ./...
+
+      - name: run tests with coverage
+        run: go test -coverprofile=coverage.out ./...
+
+      - name: collect coverage artifacts
+        uses: codecov/codecov-action@v1
+        with:
+          file: ./coverage.out
+          flags: unittests
