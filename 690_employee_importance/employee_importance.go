@@ -1,5 +1,7 @@
 package employee_importance
 
+// https://leetcode.com/problems/employee-importance
+
 type Employee struct {
 	Id           int
 	Importance   int
