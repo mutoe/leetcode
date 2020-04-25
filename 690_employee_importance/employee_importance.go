@@ -1,4 +1,4 @@
-package main
+package employee_importance
 
 type Employee struct {
 	Id           int
@@ -7,7 +7,8 @@ type Employee struct {
 }
 
 // BFS Solution
-// 12ms 6.3M
+// time: O(n) 12ms
+// space: O(n) 6.3M
 
 // leetcode submit region begin(Prohibit modification and deletion)
 
