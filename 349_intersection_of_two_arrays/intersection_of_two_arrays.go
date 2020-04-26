@@ -8,6 +8,7 @@ package intersection_of_two_arrays
 // leetcode submit region begin(Prohibit modification and deletion)
 
 func intersection(nums1 []int, nums2 []int) (ret []int) {
+	ret = []int{}
 	m := map[int]int{}
 	for _, v := range nums1 {
 		m[v] = 1
