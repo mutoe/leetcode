@@ -9,7 +9,7 @@ type Employee struct {
 }
 
 // BFS Solution
-// time: O(n) 12ms
+// time: O(n) 12ms 100%
 // space: O(n) 6.3M
 
 // leetcode submit region begin(Prohibit modification and deletion)
