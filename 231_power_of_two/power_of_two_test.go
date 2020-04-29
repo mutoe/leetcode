@@ -26,6 +26,11 @@ func Test_isPowerOfTwo(t *testing.T) {
 			args: args{218},
 			want: false,
 		},
+		{
+			name: "test",
+			args: args{0},
+			want: false,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
