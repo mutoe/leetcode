@@ -9,7 +9,7 @@ package backspace_string_compare
 func backspaceCompare(S string, T string) bool {
 	i, j := len(S)-1, len(T)-1
 	si, sj := 0, 0
-	for i >= -1 && j >= -1 {
+	for {
 		if i >= 0 && S[i] == '#' {
 			si++
 			i--
@@ -44,10 +44,6 @@ func backspaceCompare(S string, T string) bool {
 		}
 		return false
 	}
-	if i == -1 && j == -1 {
-		return true
-	}
-	return false
 }
 
 // leetcode submit region end(Prohibit modification and deletion)

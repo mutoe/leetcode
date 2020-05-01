@@ -28,6 +28,11 @@ func Test_isUgly(t *testing.T) {
 		},
 		{
 			name: "test",
+			args: args{5},
+			want: true,
+		},
+		{
+			name: "test",
 			args: args{6},
 			want: true,
 		},
