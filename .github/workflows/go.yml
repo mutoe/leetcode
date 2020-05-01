@@ -31,5 +31,5 @@ jobs:
           push-branch: 'master'
           commit-message: 'update statistics'
           files: 'README.md'
-          name: GithubActionsBot
+          name: github-actions
           email: noreply@github.com
