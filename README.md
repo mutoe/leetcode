@@ -25,6 +25,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 258	| [add digits](https://leetcode.com/problems/add_digits)	| 0ms	| O(1)	| 2.2M	| O(1)	| 100%	|
 | 263	| [ugly number](https://leetcode.com/problems/ugly_number)	| 0ms	| O(log(n))	| 2.1M	| O(1)	| 100%	|
 | 283	| [move zeroes](https://leetcode.com/problems/move_zeroes)	| 12ms	| O(n*log(n))	| 3.8M	| O(1)	| 6.22%	|
+| 326	| [power of three](https://leetcode.com/problems/power_of_three)	| 16ms	| O(log(n))	| 6.1M	| O(1)	| 93.92%	|
 | 345	| [reverse vowels of a string](https://leetcode.com/problems/reverse_vowels_of_a_string)	| 0ms	| O(n*log(n))	| 4M	| O(n)	| 100%	|
 | 349	| [intersection of two arrays](https://leetcode.com/problems/intersection_of_two_arrays)	| 0ms	| O(n+m)	| 3.2M	| O(n+m)	| 100%	|
 | 392	| [is subsequence](https://leetcode.com/problems/is_subsequence)	| 4ms	| O(n)	| 6.5M	| O(1)	| 100%	|
