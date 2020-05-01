@@ -36,6 +36,11 @@ func Test_countPrimes(t *testing.T) {
 			args: args{10},
 			want: 4,
 		},
+		{
+			name: "test",
+			args: args{10000000},
+			want: 664579,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
