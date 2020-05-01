@@ -33,6 +33,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 507	| [perfect number](https://leetcode.com/problems/perfect-number)	| 0ms	| O(log(n))	| 2M	| O(1)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| 6.3M	| O(n)	| 100% 🟢	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n*m)	| 4.2M	| O(min(n,m))	| 99.07% 🟢	|
+| 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| 2M	| O(1)	| 100% 🟢	|
 | 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 32ms	| O(n*log(n))	| 6.4M	| O(1)	| 96.67% 🟢	|
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(m*n)	| 7.1M	| O(m*n)	| 15.38% 🔴	|
 
