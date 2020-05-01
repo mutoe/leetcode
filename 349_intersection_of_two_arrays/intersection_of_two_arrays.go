@@ -3,7 +3,7 @@ package intersection_of_two_arrays
 // https://leetcode.com/problems/intersection-of-two-arrays
 
 // time: O(n+m) 0ms 100%
-// space: S(n+m) 3.2M
+// space: O(n+m) 3.2M
 
 // leetcode submit region begin(Prohibit modification and deletion)
 

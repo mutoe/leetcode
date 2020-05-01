@@ -3,7 +3,7 @@ package excel_sheet_column_number
 // https://leetcode.com/problems/excel-sheet-column-number
 
 // time: O(n) 0ms 100%
-// space: O(1)
+// space: O(1) 2.2M
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func titleToNumber(s string) (ret int) {

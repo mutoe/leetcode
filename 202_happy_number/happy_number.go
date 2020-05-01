@@ -2,7 +2,7 @@ package happy_number
 
 // https://leetcode.com/problems/happy-number
 
-// time: O(1) 0ms 100
+// time: O(1) 0ms 100%
 // space: O(1) 2.1M
 
 // leetcode submit region begin(Prohibit modification and deletion)

@@ -4,7 +4,7 @@ package matrix_cells_in_distance_order
 
 // Bucket sort
 // time: O(m*n) 36ms 15.38%
-// space: S(n*m)
+// space: O(m*n) 7.1M
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func abs(x int) int {

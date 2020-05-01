@@ -3,8 +3,8 @@ package largest_perimeter_triangle
 // https://leetcode.com/problems/largest-perimeter-triangle
 
 // selection sort and early screening
-// time: 32ms 96.67%
-// space: 6.4M
+// time: O(n*log(n)) 32ms 96.67%
+// space: O(1) 6.4M
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func largestPerimeter(A []int) (ret int) {
