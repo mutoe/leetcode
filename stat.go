@@ -105,7 +105,7 @@ func updateSolutionsInReadme(solutions []Solution) {
 	reg := regexp.MustCompile(`<!-- golang inject solutions start -->[\S\s]*<!-- golang inject solutions end -->`)
 	replacer := `<!-- golang inject solutions start -->
 
-|ID|Title|Time Spent|Time Complexity|Space Spent|Space Complexity|Ranking|
+|ID|Title|Time| |Space| |Ranking|
 |---:|--|--:|:--|--:|:--|--:|
 `
 

@@ -9,7 +9,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 
 <!-- golang inject solutions start -->
 
-|ID|Title|Time Spent|Time Complexity|Space Spent|Space Complexity|Ranking|
+|ID|Title|Time| |Space| |Ranking|
 |---:|--|--:|:--|--:|:--|--:|
 | 1	| [two sum](https://leetcode.com/problems/two-sum)	| 36ms	| O(n*log(n))	| 2.9M	| O(1)	| 30.28% 🔴	|
 | 7	| [reverse integer](https://leetcode.com/problems/reverse-integer)	| 0ms	| O(lg(n))	| 2.2M	| O(1)	| 100% 🟢	|
