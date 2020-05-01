@@ -1,33 +1,36 @@
 package count_primes
 
-import "math"
-
 // https://leetcode.com/problems/count-primes
 
-// time: O(n*log(n)) 1460ms 18.18%
-// space: O(1) 1.9M
+// Eratosthenes sieve
+// time: O(n*log(n)) 12ms 57.31%
+// space: O(n) 4.9M
 
 // leetcode submit region begin(Prohibit modification and deletion)
-func isPrime(n int) bool {
-	sqrtN := int(math.Sqrt(float64(n)))
-	for i := 2; i <= sqrtN; i++ {
-		if n%i == 0 {
-			return false
-		}
-	}
-	return true
-}
-
 func countPrimes(n int) (ret int) {
 	if n < 3 {
 		return 0
 	}
-	for i := 3; i < n; i++ {
-		if isPrime(i) {
-			ret += 1
+	primes := make([]bool, n+1)
+
+	primes[0] = true
+	primes[1] = true
+
+	for i := 2; i <= n; i++ {
+		if !primes[i] {
+			for j := i * 2; j <= n; j += i {
+				primes[j] = true
+			}
 		}
 	}
-	return ret + 1
+
+	for i := 2; i < len(primes)-1; i++ {
+		if !primes[i] {
+			ret++
+		}
+	}
+
+	return ret
 }
 
 // leetcode submit region end(Prohibit modification and deletion)
