@@ -111,7 +111,8 @@ func updateSolutionsInReadme(solutions []Solution) {
 
 	for _, s := range solutions {
 		title := regexp.MustCompile(`_`).ReplaceAllString(s.titleSlug, " ")
-		link := solutionUrlPrefix + s.titleSlug
+		titleSlug := regexp.MustCompile(`_`).ReplaceAllString(s.titleSlug, "-")
+		link := solutionUrlPrefix + titleSlug
 		replacer += fmt.Sprintf("| %d\t| [%s](%s)\t| %sms\t| %s\t| %sM\t| %s\t| %s%%\t|\n", s.id, title, link, s.timeSpent, s.timeComplexity, s.spaceSpent, s.spaceComplexity, s.ranking)
 	}
 	replacer += "\n<!-- golang inject solutions end -->"
