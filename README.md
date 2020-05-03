@@ -37,5 +37,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| 2M	| O(1)	| 100% 🟢	|
 | 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 32ms	| O(n*log(n))	| 6.4M	| O(1)	| 96.67% 🟢	|
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(m*n)	| 7.1M	| O(m*n)	| 15.38% 🔴	|
+| 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 0ms	| O(n)	| 4.4M	| O(n)	| 100% 🟢	|
+| 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 68ms	| O(n)	| 6.9M	| O(1)	| 0% 🔴	|
 
 <!-- golang inject solutions end -->
