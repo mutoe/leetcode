@@ -1,0 +1,20 @@
+{
+  name: "test1",
+  args: args{[]int{8, 2, 4, 7}, 4},
+  want: 2,
+},
+{
+  name: "test2",
+  args: args{[]int{10, 1, 2, 4, 7, 2}, 5},
+  want: 4,
+},
+{
+  name: "test3",
+  args: args{[]int{4, 2, 2, 2, 4, 4, 2, 2}, 0},
+  want: 3,
+},
+{
+  name: "test4",
+  args: args{[]int{4, 8, 5, 1, 7, 9}, 6},
+  want: 3,
+},
