@@ -54,14 +54,17 @@ func readSolutions(dir string) (solutions []Solution) {
 
 		for _, fileInfo := range fileInfos {
 			if fileInfo.IsDir() {
-				reg := regexp.MustCompile(`^(\d+)_([a-z_]+)$`)
+				reg := regexp.MustCompile(`^(\d+)_([a-z0-9_]+)$`)
 				submatch := reg.FindStringSubmatch(fileInfo.Name())
 				if submatch == nil {
 					continue
 				}
 
 				id, _ := strconv.Atoi(submatch[1])
-				solution := readFile(id, submatch[2])
+				solution, err := readFile(id, submatch[2])
+				if err != nil {
+					continue
+				}
 				solutions = append(solutions, solution)
 			}
 		}
@@ -71,20 +74,21 @@ func readSolutions(dir string) (solutions []Solution) {
 	return
 }
 
-func readFile(id int, fileName string) (solution Solution) {
+func readFile(id int, fileName string) (solution Solution, err error) {
 	defer func() {
 		if err := recover(); err != nil {
 			fmt.Println(id, err)
 		}
 	}()
-	solution.id = id
-	solution.titleSlug = fileName
+
 	filePath := fmt.Sprintf("./%d_%s/%s.go", id, fileName, fileName)
 	b, err := ioutil.ReadFile(filePath)
 	if err != nil {
-		fmt.Println("error readfile: ", err)
-		return
+		fmt.Println("warning readfile: ", err)
+		return solution, err
 	}
+	solution.id = id
+	solution.titleSlug = fileName
 	content := string(b)
 	timeReg, _ := regexp.Compile(`// time: (O\(.+\)) ?(\d+)ms ?([\d.]+)%`)
 	spaceReg, _ := regexp.Compile(`// space: (O\(.+\)) ?([\d.]+)M`)
@@ -95,7 +99,7 @@ func readFile(id int, fileName string) (solution Solution) {
 	solution.ranking = timeMatches[3]
 	solution.spaceComplexity = spaceMatches[1]
 	solution.spaceSpent = spaceMatches[2]
-	return
+	return solution, nil
 }
 
 func updateSolutionsInReadme(solutions []Solution) {
