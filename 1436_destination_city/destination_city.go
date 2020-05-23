@@ -3,8 +3,8 @@ package destination_city
 // https://leetcode.com/problems/destination-city
 
 // contest problem
-// time: O(n) 0ms 100%
-// space: O(n) 4.4M
+// time: O(n) 4ms 91.94%
+// space: O(n) 4.3M
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func destCity(paths [][]string) string {
