@@ -4,7 +4,7 @@ package number_of_islands
 
 // DFS Solution
 // time: O(n*m) 0ms 100%
-// space: O(min(n,m)) 2.4M
+// space: O(n) 2.4M
 
 // leetcode submit region begin(Prohibit modification and deletion)
 

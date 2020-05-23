@@ -2,7 +2,7 @@ package power_of_two
 
 // https://leetcode.com/problems/power-of-two
 
-// time: O(log n) 0ms 100%
+// time: O(log(n)) 0ms 100%
 // space: O(1) 2.2M
 
 // leetcode submit region begin(Prohibit modification and deletion)

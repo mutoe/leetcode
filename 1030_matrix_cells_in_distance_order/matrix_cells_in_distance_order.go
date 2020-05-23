@@ -3,8 +3,8 @@ package matrix_cells_in_distance_order
 // https://leetcode.com/problems/matrix-cells-in-distance-order
 
 // Bucket sort
-// time: O(m*n) 36ms 15.38%
-// space: O(m*n) 7.1M
+// time: O(n^2) 36ms 15.38%
+// space: O(n^2) 7.1M
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func abs(x int) int {
