@@ -12,7 +12,9 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 |ID|Title|Time| |Space| |Ranking|
 |---:|--|--:|:--|--:|:--|--:|
 | 1	| [two sum](https://leetcode.com/problems/two-sum)	| 36ms	| O(n*log(n))	| 2.9M	| O(1)	| 30.28% 🔴	|
+| 2	| [add two numbers](https://leetcode.com/problems/add-two-numbers)	| 12ms	| O(n)	| 4.9M	| O(n)	| 64.05% 🟠	|
 | 3	| [longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)	| 584ms	| O(n^2)	| 7M	| O(n)	| 5.03% 🔴	|
+| 6	| [zigzag conversion](https://leetcode.com/problems/zigzag-conversion)	| 8ms	| O(n)	| 5.8M	| O(n)	| 74.58% 🟠	|
 | 7	| [reverse integer](https://leetcode.com/problems/reverse-integer)	| 0ms	| O(lg(n))	| 2.2M	| O(1)	| 100% 🟢	|
 | 8	| [string to integer atoi](https://leetcode.com/problems/string-to-integer-atoi)	| 4ms	| O(n)	| 2.3M	| O(1)	| 47.51% 🔴	|
 | 11	| [container with most water](https://leetcode.com/problems/container-with-most-water)	| 296ms	| O(n^2)	| 5.8M	| O(1)	| 26.72% 🔴	|
