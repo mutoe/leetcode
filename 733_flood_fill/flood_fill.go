@@ -2,7 +2,7 @@ package flood_fill
 
 // https://leetcode.com/problems/flood-fill
 
-// DFS Solution
+// level: 1
 // time: O(n^2) 4ms 99.07%
 // space: O(n) 4.2M
 

@@ -2,6 +2,7 @@ package zigzag_conversion
 
 // https://leetcode.com/problems/zigzag-conversion
 
+// level: 2
 // time: O(n) 8ms 74.58%
 // space: O(n) 5.8M
 

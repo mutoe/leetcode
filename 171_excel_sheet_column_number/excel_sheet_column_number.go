@@ -2,6 +2,7 @@ package excel_sheet_column_number
 
 // https://leetcode.com/problems/excel-sheet-column-number
 
+// level: 1
 // time: O(n) 0ms 100%
 // space: O(1) 2.2M
 

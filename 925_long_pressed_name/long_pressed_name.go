@@ -2,6 +2,7 @@ package long_pressed_name
 
 // https://leetcode.com/problems/long-pressed-name
 
+// level: 1
 // time: O(n) 0ms 100%
 // space: O(1) 2M
 

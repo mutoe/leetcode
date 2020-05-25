@@ -2,6 +2,7 @@ package backspace_string_compare
 
 // https://leetcode.com/problems/backspace-string-compare
 
+// level: 1
 // time: O(n) 0ms 100%
 // space: O(1) 2M
 

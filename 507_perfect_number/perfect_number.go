@@ -4,6 +4,7 @@ import "math"
 
 // https://leetcode.com/problems/perfect-number
 
+// level: 1
 // time: O(log(n)) 0ms 100%
 // space: O(1) 2M
 

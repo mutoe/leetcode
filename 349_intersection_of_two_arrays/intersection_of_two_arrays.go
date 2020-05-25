@@ -2,6 +2,7 @@ package intersection_of_two_arrays
 
 // https://leetcode.com/problems/intersection-of-two-arrays
 
+// level: 1
 // time: O(n) 0ms 100%
 // space: O(n) 3.2M
 

@@ -4,6 +4,7 @@ import "math"
 
 // https://leetcode.com/problems/string-to-integer-atoi
 
+// level: 2
 // time: O(n) 4ms 47.51%
 // space: O(1) 2.3M
 

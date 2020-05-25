@@ -2,7 +2,7 @@ package matrix_cells_in_distance_order
 
 // https://leetcode.com/problems/matrix-cells-in-distance-order
 
-// Bucket sort
+// level: 1
 // time: O(n^2) 36ms 15.38%
 // space: O(n^2) 7.1M
 

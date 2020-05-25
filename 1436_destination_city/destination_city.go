@@ -3,6 +3,7 @@ package destination_city
 // https://leetcode.com/problems/destination-city
 
 // contest problem
+// level: 1
 // time: O(n) 4ms 91.94%
 // space: O(n) 4.3M
 

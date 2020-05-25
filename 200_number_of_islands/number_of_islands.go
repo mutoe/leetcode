@@ -2,7 +2,7 @@ package number_of_islands
 
 // https://leetcode.com/problems/number-of-islands
 
-// DFS Solution
+// level: 2
 // time: O(n*m) 0ms 100%
 // space: O(n) 2.4M
 

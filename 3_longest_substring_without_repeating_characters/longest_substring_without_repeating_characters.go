@@ -2,6 +2,7 @@ package longest_substring_without_repeating_characters
 
 // https://leetcode.com/problems/longest-substring-without-repeating-characters
 
+// level: 2
 // time: O(n^2) 584ms 5.03%
 // space: O(n) 7M
 

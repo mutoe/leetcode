@@ -2,6 +2,7 @@ package move_zeroes
 
 // https://leetcode.com/problems/move-zeroes
 
+// level: 1
 // time: O(n*log(n)) 12ms 6.22%
 // space: O(1) 3.8M
 

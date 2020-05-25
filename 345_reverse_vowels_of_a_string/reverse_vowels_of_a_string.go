@@ -2,6 +2,7 @@ package reverse_vowels_of_a_string
 
 // https://leetcode.com/problems/reverse-vowels-of-a-string
 
+// level: 1
 // time: O(n*log(n)) 0ms 100%
 // space: O(n) 4M
 

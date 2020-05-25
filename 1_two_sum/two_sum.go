@@ -2,6 +2,7 @@ package two_sum
 
 // https://leetcode.com/problems/two-sum
 
+// level: 1
 // time: O(n*log(n)) 36ms 30.28%
 // space: O(1) 2.9M
 

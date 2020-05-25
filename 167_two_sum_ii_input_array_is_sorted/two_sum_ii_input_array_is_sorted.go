@@ -2,6 +2,7 @@ package two_sum_ii_input_array_is_sorted
 
 // https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
 
+// level: 1
 // time: O(n*log(n)) 4ms 94.87%
 // space: O(1) 3M
 

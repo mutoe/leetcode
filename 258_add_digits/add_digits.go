@@ -2,6 +2,7 @@ package add_digits
 
 // https://leetcode.com/problems/add-digits
 
+// level: 1
 // time: O(1) 0ms 100%
 // space: O(1) 2.2M
 

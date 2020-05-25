@@ -2,6 +2,7 @@ package is_subsequence
 
 // https://leetcode.com/problems/is-subsequence
 
+// level: 1
 // time: O(n) 4ms 100%
 // space: O(1) 6.5M
 

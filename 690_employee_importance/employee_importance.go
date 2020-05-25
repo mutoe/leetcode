@@ -8,7 +8,7 @@ type Employee struct {
 	Subordinates []int
 }
 
-// BFS Solution
+// level: 1
 // time: O(n) 12ms 100%
 // space: O(n) 6.3M
 

@@ -2,7 +2,7 @@ package largest_perimeter_triangle
 
 // https://leetcode.com/problems/largest-perimeter-triangle
 
-// selection sort and early screening
+// level: 1
 // time: O(n*log(n)) 32ms 96.67%
 // space: O(1) 6.4M
 

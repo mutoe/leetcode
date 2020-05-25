@@ -2,6 +2,7 @@ package container_with_most_water
 
 // https://leetcode.com/problems/container-with-most-water
 
+// level: 2
 // time: O(n^2) 296ms 26.72%
 // space: O(1) 5.8M
 

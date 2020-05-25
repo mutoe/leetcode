@@ -7,6 +7,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
+// level: 2
 // time: O(n) 12ms 64.05%
 // space: O(n) 4.9M
 

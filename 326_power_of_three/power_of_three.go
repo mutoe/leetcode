@@ -2,6 +2,7 @@ package power_of_three
 
 // https://leetcode.com/problems/power-of-three
 
+// level: 1
 // time: O(1) 8ms 99.32%
 // space: O(1) 6.1M
 

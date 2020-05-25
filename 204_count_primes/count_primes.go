@@ -2,7 +2,7 @@ package count_primes
 
 // https://leetcode.com/problems/count-primes
 
-// Euler sieve
+// level: 1
 // time: O(n) 8ms 81.42%
 // space: O(n) 4.9M
 
