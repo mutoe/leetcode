@@ -15,7 +15,7 @@ func convertToTitle(n int) (ret string) {
 			char = 26
 			n--
 		}
-		ret = string('A'-1+char) + ret
+		ret = string(rune('A'-1+char)) + ret
 	}
 	return
 }
