@@ -35,6 +35,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 349	| [intersection of two arrays](https://leetcode.com/problems/intersection-of-two-arrays)	| 0ms	| O(n)	| 3.2M	| O(n)	| 100% 🟢	|
 | 392	| [is subsequence](https://leetcode.com/problems/is-subsequence)	| 4ms	| O(n)	| 6.5M	| O(1)	| 100% 🟢	|
 | 441	| [arranging coins](https://leetcode.com/problems/arranging-coins)	| 8ms	| O(log(n))	| 2.2M	| O(1)	| 38.46% 🔴	|
+| 468	| [validate ip address](https://leetcode.com/problems/validate-ip-address)	| 0ms	| O(1)	| 2M	| O(1)	| 100% 🟢	|
 | 507	| [perfect number](https://leetcode.com/problems/perfect-number)	| 0ms	| O(log(n))	| 2M	| O(1)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| 6.3M	| O(n)	| 100% 🟢	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| 4.2M	| O(n)	| 99.07% 🟢	|
