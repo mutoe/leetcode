@@ -14,7 +14,7 @@ import (
 // leetcode submit region begin(Prohibit modification and deletion)
 
 func isValidPartOfIpv4(str string) bool {
-	if str == "" || len(str) > 3 {
+	if len(str) < 1 || len(str) > 3 {
 		return false
 	}
 	for i, s := range str {
@@ -51,11 +51,8 @@ func validIPAddress(IP string) string {
 	s := strings.Split(IP, ".")
 	if len(s) == 4 {
 		for _, s2 := range s {
-			if !isValidPartOfIpv4(s2) {
-				return "Neither"
-			}
 			num, _ := strconv.Atoi(s2)
-			if num > 255 {
+			if !isValidPartOfIpv4(s2) || num > 255 {
 				return "Neither"
 			}
 		}
