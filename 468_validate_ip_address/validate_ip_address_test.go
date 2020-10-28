@@ -62,6 +62,11 @@ func Test_validIPAddress(t *testing.T) {
 			want: "Neither",
 		},
 		{
+			name: "1.2.3",
+			args: args{"1.2.3"},
+			want: "Neither",
+		},
+		{
 			name: "2001:0db8:85a3::8A2E:037j:7334:",
 			args: args{"2001:0db8:85a3::8A2E:037j:7334:"},
 			want: "Neither",
