@@ -34,6 +34,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 345	| [reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string)	| 0ms	| O(n*log(n))	| 4M	| O(n)	| 100% 🟢	|
 | 349	| [intersection of two arrays](https://leetcode.com/problems/intersection-of-two-arrays)	| 0ms	| O(n)	| 3.2M	| O(n)	| 100% 🟢	|
 | 392	| [is subsequence](https://leetcode.com/problems/is-subsequence)	| 4ms	| O(n)	| 6.5M	| O(1)	| 100% 🟢	|
+| 415	| [add strings](https://leetcode.com/problems/add-strings)	| 0ms	| O(n)	| 3M	| O(n)	| 100% 🟢	|
 | 441	| [arranging coins](https://leetcode.com/problems/arranging-coins)	| 8ms	| O(log(n))	| 2.2M	| O(1)	| 38.46% 🔴	|
 | 468	| [validate ip address](https://leetcode.com/problems/validate-ip-address)	| 0ms	| O(1)	| 2M	| O(1)	| 100% 🟢	|
 | 507	| [perfect number](https://leetcode.com/problems/perfect-number)	| 0ms	| O(log(n))	| 2M	| O(1)	| 100% 🟢	|
