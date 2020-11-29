@@ -19,13 +19,16 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 8	| [string to integer atoi](https://leetcode.com/problems/string-to-integer-atoi)	| 4ms	| O(n)	| 2.3M	| O(1)	| 47.51% 🔴	|
 | 11	| [container with most water](https://leetcode.com/problems/container-with-most-water)	| 296ms	| O(n^2)	| 5.8M	| O(1)	| 26.72% 🔴	|
 | 12	| [integer to roman](https://leetcode.com/problems/integer-to-roman)	| 12ms	| O(log(n))	| 3.4M	| O(1)	| 44.82% 🔴	|
+| 20	| [valid parentheses](https://leetcode.com/problems/valid-parentheses)	| 0ms	| O(n)	| 2M	| O(n)	| 100% 🟢	|
 | 125	| [valid palindrome](https://leetcode.com/problems/valid-palindrome)	| 0ms	| O(n*log(n))	| 2.9M	| O(1)	| 100% 🟢	|
+| 155	| [min stack](https://leetcode.com/problems/min-stack)	| 12ms	| O(n)	| 7.5M	| O(n)	| 98.73% 🟢	|
 | 167	| [two sum ii input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)	| 4ms	| O(n*log(n))	| 3M	| O(1)	| 94.87% 🟢	|
 | 168	| [excel sheet column title](https://leetcode.com/problems/excel-sheet-column-title)	| 0ms	| O(log(n))	| 2M	| O(1)	| 100% 🟢	|
 | 171	| [excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number)	| 0ms	| O(n)	| 2.2M	| O(1)	| 100% 🟢	|
 | 200	| [number of islands](https://leetcode.com/problems/number-of-islands)	| 0ms	| O(n*m)	| 2.4M	| O(n)	| 100% 🟢	|
 | 202	| [happy number](https://leetcode.com/problems/happy-number)	| 0ms	| O(1)	| 2.1M	| O(1)	| 100% 🟢	|
 | 204	| [count primes](https://leetcode.com/problems/count-primes)	| 8ms	| O(n)	| 4.9M	| O(n)	| 81.42% 🟠	|
+| 225	| [implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues)	| 0ms	| O(n)	| 2M	| O(n)	| 100% 🟢	|
 | 231	| [power of two](https://leetcode.com/problems/power-of-two)	| 0ms	| O(log(n))	| 2.2M	| O(1)	| 100% 🟢	|
 | 258	| [add digits](https://leetcode.com/problems/add-digits)	| 0ms	| O(1)	| 2.2M	| O(1)	| 100% 🟢	|
 | 263	| [ugly number](https://leetcode.com/problems/ugly-number)	| 0ms	| O(log(n))	| 2.1M	| O(1)	| 100% 🟢	|
@@ -52,6 +55,6 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| 6.9M	| O(1)	| 97.14% 🟢	|
 | 1528	| [shuffle string](https://leetcode.com/problems/shuffle-string)	| 4ms	| O(n)	| 3.4M	| O(n)	| 87.5% 🟠	|
 | 1672	| [richest customer wealth](https://leetcode.com/problems/richest-customer-wealth)	| 0ms	| O(n^2)	| 3.3M	| O(n)	| 100% 🟢	|
-| 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| ms	| 	| M	| 	| 0% 🔴	|
+| 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| 180ms	| O(n^2)	| 10.1M	| O(n)	| 0% 🔴	|
 
 <!-- golang inject solutions end -->
