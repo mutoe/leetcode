@@ -30,6 +30,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 204	| [count primes](https://leetcode.com/problems/count-primes)	| 8ms	| O(n)	| 4.9M	| O(n)	| 81.42% 🟠	|
 | 225	| [implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues)	| 0ms	| O(n)	| 2M	| O(n)	| 100% 🟢	|
 | 231	| [power of two](https://leetcode.com/problems/power-of-two)	| 0ms	| O(log(n))	| 2.2M	| O(1)	| 100% 🟢	|
+| 232	| [implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks)	| 0ms	| O(n)	| 2.1M	| O(1)	| 100% 🟢	|
 | 258	| [add digits](https://leetcode.com/problems/add-digits)	| 0ms	| O(1)	| 2.2M	| O(1)	| 100% 🟢	|
 | 263	| [ugly number](https://leetcode.com/problems/ugly-number)	| 0ms	| O(log(n))	| 2.1M	| O(1)	| 100% 🟢	|
 | 283	| [move zeroes](https://leetcode.com/problems/move-zeroes)	| 12ms	| O(n*log(n))	| 3.8M	| O(1)	| 6.22% 🔴	|
@@ -40,6 +41,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 415	| [add strings](https://leetcode.com/problems/add-strings)	| 0ms	| O(n)	| 3M	| O(n)	| 100% 🟢	|
 | 441	| [arranging coins](https://leetcode.com/problems/arranging-coins)	| 8ms	| O(log(n))	| 2.2M	| O(1)	| 38.46% 🔴	|
 | 468	| [validate ip address](https://leetcode.com/problems/validate-ip-address)	| 0ms	| O(1)	| 2M	| O(1)	| 100% 🟢	|
+| 496	| [next greater element i](https://leetcode.com/problems/next-greater-element-i)	| 0ms	| O(n^2)	| 3.4M	| O(n)	| 100% 🟢	|
 | 507	| [perfect number](https://leetcode.com/problems/perfect-number)	| 0ms	| O(log(n))	| 2M	| O(1)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| 6.3M	| O(n)	| 100% 🟢	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| 4.2M	| O(n)	| 99.07% 🟢	|
