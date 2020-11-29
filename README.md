@@ -51,5 +51,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 4ms	| O(n)	| 4.3M	| O(n)	| 91.94% 🟢	|
 | 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| 6.9M	| O(1)	| 97.14% 🟢	|
 | 1528	| [shuffle string](https://leetcode.com/problems/shuffle-string)	| 4ms	| O(n)	| 3.4M	| O(n)	| 87.5% 🟠	|
+| 1672	| [richest customer wealth](https://leetcode.com/problems/richest-customer-wealth)	| 0ms	| O(n^2)	| 3.3M	| O(n)	| 100% 🟢	|
+| 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| ms	| 	| M	| 	| 0% 🔴	|
 
 <!-- golang inject solutions end -->
