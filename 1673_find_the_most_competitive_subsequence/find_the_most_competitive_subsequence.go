@@ -2,11 +2,11 @@ package find_the_most_competitive_subsequence
 
 import "sort"
 
-// https://leetcode.com/problems/shuffle-string
+// https://leetcode.com/problems/find-the-most-competitive-subsequence
 
 // level: 1
-// time: O(n^2) 180ms
-// space: O(n) 10.1M
+// time: O(n^2) 180ms 0%
+// space: O(n) 10.1M 0%
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func mostCompetitive(nums []int, k int) []int {
