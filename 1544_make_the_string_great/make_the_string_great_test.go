@@ -34,7 +34,7 @@ func Test_makeGood(t *testing.T) {
 		{
 			name: "test5",
 			args: args{"Pp"},
-			want: "Pp",
+			want: "",
 		},
 	}
 	for _, tt := range tests {
