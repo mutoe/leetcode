@@ -58,7 +58,10 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1403	| [minimum subsequence in non increasing order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order)	| 4ms	| O(n*log(n))	| 3.2M	| O(n)	| 97.44% 🟢	|
 | 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 4ms	| O(n)	| 4.3M	| O(n)	| 91.94% 🟢	|
 | 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| 6.9M	| O(1)	| 97.14% 🟢	|
+| 1441	| [build an array with stack operations](https://leetcode.com/problems/build-an-array-with-stack-operations)	| 0ms	| O(n)	| 2.3M	| O(n)	| 100% 🟢	|
 | 1528	| [shuffle string](https://leetcode.com/problems/shuffle-string)	| 4ms	| O(n)	| 3.4M	| O(n)	| 87.5% 🟠	|
+| 1544	| [make the string great](https://leetcode.com/problems/make-the-string-great)	| 0ms	| O(n)	| 2.2M	| O(n)	| 100% 🟢	|
+| 1598	| [crawler log folder](https://leetcode.com/problems/crawler-log-folder)	| 0ms	| O(n)	| 3.1M	| O(1)	| 100% 🟢	|
 | 1672	| [richest customer wealth](https://leetcode.com/problems/richest-customer-wealth)	| 0ms	| O(n^2)	| 3.3M	| O(n)	| 100% 🟢	|
 | 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| 180ms	| O(n^2)	| 10.1M	| O(n)	| 0% 🔴	|
 
