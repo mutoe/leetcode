@@ -43,12 +43,15 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 468	| [validate ip address](https://leetcode.com/problems/validate-ip-address)	| 0ms	| O(1)	| 2M	| O(1)	| 100% 🟢	|
 | 496	| [next greater element i](https://leetcode.com/problems/next-greater-element-i)	| 0ms	| O(n^2)	| 3.4M	| O(n)	| 100% 🟢	|
 | 507	| [perfect number](https://leetcode.com/problems/perfect-number)	| 0ms	| O(log(n))	| 2M	| O(1)	| 100% 🟢	|
+| 682	| [baseball game](https://leetcode.com/problems/baseball-game)	| 0ms	| O(n)	| 2.6M	| O(n)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| 6.3M	| O(n)	| 100% 🟢	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| 4.2M	| O(n)	| 99.07% 🟢	|
 | 844	| [backspace string compare](https://leetcode.com/problems/backspace-string-compare)	| 0ms	| O(n)	| 2M	| O(1)	| 100% 🟢	|
 | 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| 2M	| O(1)	| 100% 🟢	|
 | 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 32ms	| O(n*log(n))	| 6.4M	| O(1)	| 96.67% 🟢	|
+| 1021	| [remove outermost parentheses](https://leetcode.com/problems/remove-outermost-parentheses)	| 0ms	| O(n)	| 2.5M	| O(n)	| 100% 🟢	|
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(n^2)	| 7.1M	| O(n^2)	| 15.38% 🔴	|
+| 1047	| [remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)	| 4ms	| O(n)	| 5.9M	| O(n)	| 87.67% 🟠	|
 | 1122	| [relative sort array](https://leetcode.com/problems/relative-sort-array)	| 0ms	| O(n^2)	| 2.3M	| O(n)	| 100% 🟢	|
 | 1356	| [sort integers by the number of 1 bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)	| 12ms	| O(n*log(n))	| 3.6M	| O(n)	| 13.46% 🔴	|
 | 1370	| [increasing decreasing string](https://leetcode.com/problems/increasing-decreasing-string)	| 0ms	| O(n)	| 3.4M	| O(n)	| 100% 🟢	|
