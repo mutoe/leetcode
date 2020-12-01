@@ -21,14 +21,19 @@ func Test_twoSum(t *testing.T) {
 			want: []int{0, 1},
 		},
 		{
-			name: "test1",
+			name: "test2",
 			args: args{[]int{3, 2, 4}, 6},
 			want: []int{1, 2},
 		},
 		{
-			name: "test1",
+			name: "test3",
 			args: args{[]int{3, 2, 4}, 4},
 			want: []int{},
+		},
+		{
+			name: "test4",
+			args: args{[]int{0, 4, 3, 0}, 0},
+			want: []int{0, 3},
 		},
 	}
 	for _, tt := range tests {
