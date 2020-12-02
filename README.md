@@ -49,6 +49,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| 4.2M	| O(n)	| 99.07% 🟢	|
 | 844	| [backspace string compare](https://leetcode.com/problems/backspace-string-compare)	| 0ms	| O(n)	| 2M	| O(1)	| 100% 🟢	|
 | 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| 2M	| O(1)	| 100% 🟢	|
+| 933	| [number of recent calls](https://leetcode.com/problems/number-of-recent-calls)	| 128ms	| O(n)	| 10.8M	| O(n)	| 79.37% 🟠	|
 | 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 32ms	| O(n*log(n))	| 6.4M	| O(1)	| 96.67% 🟢	|
 | 1021	| [remove outermost parentheses](https://leetcode.com/problems/remove-outermost-parentheses)	| 0ms	| O(n)	| 2.5M	| O(n)	| 100% 🟢	|
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(n^2)	| 7.1M	| O(n^2)	| 15.38% 🔴	|
