@@ -11,7 +11,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 
 |ID|Title|Time| |Space| |Ranking|
 |---:|--|--:|:--|--:|:--|--:|
-| 1	| [two sum](https://leetcode.com/problems/two-sum)	| 36ms	| O(n*log(n))	| 2.9M	| O(1)	| 30.28% 🔴	|
+| 1	| [two sum](https://leetcode.com/problems/two-sum)	| 4ms	| O(n)	| 3.2M	| O(n)	| 95.58% 🟢	|
 | 2	| [add two numbers](https://leetcode.com/problems/add-two-numbers)	| 12ms	| O(n)	| 4.9M	| O(n)	| 64.05% 🟠	|
 | 3	| [longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)	| 584ms	| O(n^2)	| 7M	| O(n)	| 5.03% 🔴	|
 | 6	| [zigzag conversion](https://leetcode.com/problems/zigzag-conversion)	| 8ms	| O(n)	| 5.8M	| O(n)	| 74.58% 🟠	|
@@ -43,6 +43,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 468	| [validate ip address](https://leetcode.com/problems/validate-ip-address)	| 0ms	| O(1)	| 2M	| O(1)	| 100% 🟢	|
 | 496	| [next greater element i](https://leetcode.com/problems/next-greater-element-i)	| 0ms	| O(n^2)	| 3.4M	| O(n)	| 100% 🟢	|
 | 507	| [perfect number](https://leetcode.com/problems/perfect-number)	| 0ms	| O(log(n))	| 2M	| O(1)	| 100% 🟢	|
+| 628	| [maximum product of three numbers](https://leetcode.com/problems/maximum-product-of-three-numbers)	| 28ms	| O(n)	| 6.3M	| O(1)	| 100% 🟢	|
 | 682	| [baseball game](https://leetcode.com/problems/baseball-game)	| 0ms	| O(n)	| 2.6M	| O(n)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| 6.3M	| O(n)	| 100% 🟢	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| 4.2M	| O(n)	| 99.07% 🟢	|
