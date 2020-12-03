@@ -27,6 +27,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 171	| [excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number)	| 0ms	| O(n)	| 2.2M	| O(1)	| 100% 🟢	|
 | 200	| [number of islands](https://leetcode.com/problems/number-of-islands)	| 0ms	| O(n*m)	| 2.4M	| O(n)	| 100% 🟢	|
 | 202	| [happy number](https://leetcode.com/problems/happy-number)	| 0ms	| O(1)	| 2.1M	| O(1)	| 100% 🟢	|
+| 203	| [remove linked list elements](https://leetcode.com/problems/remove-linked-list-elements)	| 8ms	| O(n)	| 4.7M	| O(1)	| 88.89% 🟠	|
 | 204	| [count primes](https://leetcode.com/problems/count-primes)	| 8ms	| O(n)	| 4.9M	| O(n)	| 81.42% 🟠	|
 | 225	| [implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues)	| 0ms	| O(n)	| 2M	| O(n)	| 100% 🟢	|
 | 231	| [power of two](https://leetcode.com/problems/power-of-two)	| 0ms	| O(log(n))	| 2.2M	| O(1)	| 100% 🟢	|
