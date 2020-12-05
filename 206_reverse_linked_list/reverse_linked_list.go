@@ -4,7 +4,7 @@ package reverse_linked_list
 
 // level: 1
 // time: O(n) 0ms 100%
-// space: O(1) 2.7M 36.88%
+// space: O(1) 2.5M 71.38%
 
 // TODO: using recursive call to resolve
 
@@ -22,17 +22,14 @@ import (
  */
 
 func reverseList(head *ListNode) *ListNode {
-	if head == nil {
-		return nil
+	var prev *ListNode
+	cur := head
+
+	for cur != nil {
+		cur.Next, prev, cur = prev, cur, cur.Next
 	}
-	dummyHead := &ListNode{}
-	for ; head != nil; head = head.Next {
-		dummyHead.Next = &ListNode{
-			Val:  head.Val,
-			Next: dummyHead.Next,
-		}
-	}
-	return dummyHead.Next
+
+	return prev
 }
 
 // leetcode submit region end(Prohibit modification and deletion)
