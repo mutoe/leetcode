@@ -18,6 +18,21 @@ func ArrayToLinkedList(arr []int) *ListNode {
 	return head.Next
 }
 
+func ArrayToLinkedListReturnTail(arr []int) (head, tail *ListNode) {
+	dummyHead := &ListNode{}
+	cur := dummyHead
+	for _, value := range arr {
+		cur.Next = &ListNode{
+			Val:  value,
+			Next: nil,
+		}
+		cur = cur.Next
+		tail = cur
+	}
+	head = dummyHead.Next
+	return
+}
+
 func ArrayToLinkedListWithTailCycle(arr []int, pos int) *ListNode {
 	dummyHead := &ListNode{}
 	cur := dummyHead
