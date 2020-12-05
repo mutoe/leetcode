@@ -3,8 +3,8 @@ package remove_duplicates_from_sorted_list
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list
 
 // level: 1
-// time: O(n) 4ms 83.90%
-// space: O(n) 3.4M 7.63%
+// time: O(n) 0ms 100%
+// space: O(1) 3.2M 16.53%
 
 import . "../utils/list_node"
 
@@ -17,19 +17,19 @@ import . "../utils/list_node"
  * }
  */
 func deleteDuplicates(head *ListNode) *ListNode {
-	m := make(map[int]bool)
-	dummy := &ListNode{Next: head}
-	prev := dummy
+	if head == nil || head.Next == nil {
+		return head
+	}
+
+	prev := head
 	for prev.Next != nil {
-		cur := prev.Next
-		if m[cur.Val] {
-			prev.Next = cur.Next
+		if prev.Val == prev.Next.Val {
+			prev.Next = prev.Next.Next
 		} else {
-			m[cur.Val] = true
 			prev = prev.Next
 		}
 	}
-	return dummy.Next
+	return head
 }
 
 // leetcode submit region end(Prohibit modification and deletion)
