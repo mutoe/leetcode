@@ -20,8 +20,12 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 11	| [container with most water](https://leetcode.com/problems/container-with-most-water)	| 296ms	| O(n^2)	| 5.8M	| O(1)	| 26.72% 🔴	|
 | 12	| [integer to roman](https://leetcode.com/problems/integer-to-roman)	| 12ms	| O(log(n))	| 3.4M	| O(1)	| 44.82% 🔴	|
 | 20	| [valid parentheses](https://leetcode.com/problems/valid-parentheses)	| 0ms	| O(n)	| 2M	| O(n)	| 100% 🟢	|
+| 21	| [merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists)	| 0ms	| O(n)	| 2.5M	| O(1)	| 100% 🟢	|
+| 83	| [remove duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list)	| 0ms	| O(n)	| 3.2M	| O(1)	| 100% 🟢	|
 | 125	| [valid palindrome](https://leetcode.com/problems/valid-palindrome)	| 0ms	| O(n*log(n))	| 2.9M	| O(1)	| 100% 🟢	|
+| 141	| [linked list cycle](https://leetcode.com/problems/linked-list-cycle)	| 4ms	| O(n)	| 3.8M	| O(1)	| 96% 🟢	|
 | 155	| [min stack](https://leetcode.com/problems/min-stack)	| 12ms	| O(n)	| 7.5M	| O(n)	| 98.73% 🟢	|
+| 160	| [intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists)	| 44ms	| O(n)	| 7.3M	| O(n)	| 30.1% 🔴	|
 | 167	| [two sum ii input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)	| 4ms	| O(n*log(n))	| 3M	| O(1)	| 94.87% 🟢	|
 | 168	| [excel sheet column title](https://leetcode.com/problems/excel-sheet-column-title)	| 0ms	| O(log(n))	| 2M	| O(1)	| 100% 🟢	|
 | 171	| [excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number)	| 0ms	| O(n)	| 2.2M	| O(1)	| 100% 🟢	|
@@ -29,9 +33,11 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 202	| [happy number](https://leetcode.com/problems/happy-number)	| 0ms	| O(1)	| 2.1M	| O(1)	| 100% 🟢	|
 | 203	| [remove linked list elements](https://leetcode.com/problems/remove-linked-list-elements)	| 8ms	| O(n)	| 4.7M	| O(1)	| 88.89% 🟠	|
 | 204	| [count primes](https://leetcode.com/problems/count-primes)	| 8ms	| O(n)	| 4.9M	| O(n)	| 81.42% 🟠	|
+| 206	| [reverse linked list](https://leetcode.com/problems/reverse-linked-list)	| 0ms	| O(n)	| 2.5M	| O(1)	| 100% 🟢	|
 | 225	| [implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues)	| 0ms	| O(n)	| 2M	| O(n)	| 100% 🟢	|
 | 231	| [power of two](https://leetcode.com/problems/power-of-two)	| 0ms	| O(log(n))	| 2.2M	| O(1)	| 100% 🟢	|
 | 232	| [implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks)	| 0ms	| O(n)	| 2.1M	| O(1)	| 100% 🟢	|
+| 237	| [delete node in a linked list](https://leetcode.com/problems/delete-node-in-a-linked-list)	| 0ms	| O(1)	| 2.9M	| O(1)	| 100% 🟢	|
 | 258	| [add digits](https://leetcode.com/problems/add-digits)	| 0ms	| O(1)	| 2.2M	| O(1)	| 100% 🟢	|
 | 263	| [ugly number](https://leetcode.com/problems/ugly-number)	| 0ms	| O(log(n))	| 2.1M	| O(1)	| 100% 🟢	|
 | 283	| [move zeroes](https://leetcode.com/problems/move-zeroes)	| 12ms	| O(n*log(n))	| 3.8M	| O(1)	| 6.22% 🔴	|
@@ -49,6 +55,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| 6.3M	| O(n)	| 100% 🟢	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| 4.2M	| O(n)	| 99.07% 🟢	|
 | 844	| [backspace string compare](https://leetcode.com/problems/backspace-string-compare)	| 0ms	| O(n)	| 2M	| O(1)	| 100% 🟢	|
+| 876	| [middle of the linked list](https://leetcode.com/problems/middle-of-the-linked-list)	| 0ms	| O(n)	| 2M	| O(1)	| 100% 🟢	|
 | 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| 2M	| O(1)	| 100% 🟢	|
 | 933	| [number of recent calls](https://leetcode.com/problems/number-of-recent-calls)	| 128ms	| O(n)	| 10.8M	| O(n)	| 79.37% 🟠	|
 | 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 32ms	| O(n*log(n))	| 6.4M	| O(1)	| 96.67% 🟢	|
@@ -56,6 +63,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(n^2)	| 7.1M	| O(n^2)	| 15.38% 🔴	|
 | 1047	| [remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)	| 4ms	| O(n)	| 5.9M	| O(n)	| 87.67% 🟠	|
 | 1122	| [relative sort array](https://leetcode.com/problems/relative-sort-array)	| 0ms	| O(n^2)	| 2.3M	| O(n)	| 100% 🟢	|
+| 1290	| [convert binary number in a linked list to integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer)	| 0ms	| O(n)	| 2.1M	| O(1)	| 100% 🟢	|
 | 1356	| [sort integers by the number of 1 bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)	| 12ms	| O(n*log(n))	| 3.6M	| O(n)	| 13.46% 🔴	|
 | 1370	| [increasing decreasing string](https://leetcode.com/problems/increasing-decreasing-string)	| 0ms	| O(n)	| 3.4M	| O(n)	| 100% 🟢	|
 | 1403	| [minimum subsequence in non increasing order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order)	| 4ms	| O(n*log(n))	| 3.2M	| O(n)	| 97.44% 🟢	|
