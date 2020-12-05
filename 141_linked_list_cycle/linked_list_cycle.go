@@ -7,7 +7,7 @@ package linked_list_cycle
 // space: O(n) 5.2M 16.22%
 
 import (
-	. "../utils"
+	. "../utils/list_node"
 )
 
 //leetcode submit region begin(Prohibit modification and deletion)

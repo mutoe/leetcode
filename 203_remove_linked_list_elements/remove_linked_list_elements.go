@@ -7,7 +7,7 @@ package remove_linked_list_elements
 // space: O(1) 4.7M 100%
 
 import (
-	. "../utils"
+	. "../utils/list_node"
 )
 
 // leetcode submit region begin(Prohibit modification and deletion)

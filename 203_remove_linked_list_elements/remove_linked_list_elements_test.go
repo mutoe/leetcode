@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "../utils"
+	. "../utils/list_node"
 )
 
 func Test_removeElements(t *testing.T) {

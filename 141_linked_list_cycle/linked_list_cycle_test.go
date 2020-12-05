@@ -1,7 +1,10 @@
 package linked_list_cycle
 
-import "testing"
-import . "../utils"
+import (
+	"testing"
+
+	. "../utils/list_node"
+)
 
 func Test_hasCycle(t *testing.T) {
 	type args struct {
