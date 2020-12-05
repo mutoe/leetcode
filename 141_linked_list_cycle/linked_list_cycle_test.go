@@ -39,7 +39,7 @@ func Test_hasCycle(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			head := ArrayToLinkedListWithTailCycle(tt.args.head, tt.args.pos)
+			head := ArrayToListNodeWithTailCycle(tt.args.head, tt.args.pos)
 			if got := hasCycle(head); got != tt.want {
 				t.Errorf("hasCycle() = %v, want %v", got, tt.want)
 			}

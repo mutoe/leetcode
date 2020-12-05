@@ -54,8 +54,8 @@ func Test_getIntersectionNode(t *testing.T) {
 			headA, headB, intersection := generateIntersectionLinkedLists(tt.args.intersectVal, tt.args.listA, tt.args.listB, tt.args.skipA, tt.args.skipB)
 			ret := getIntersectionNode(headA, headB)
 			if ret != intersection {
-				retArr := LinkedListToArray(ret)
-				expectArr := LinkedListToArray(intersection)
+				retArr := ListNodeToArray(ret)
+				expectArr := ListNodeToArray(intersection)
 				t.Errorf("getIntersectionNode() = %v, want %v", retArr, expectArr)
 			}
 		})
@@ -64,16 +64,16 @@ func Test_getIntersectionNode(t *testing.T) {
 
 func generateIntersectionLinkedLists(intersectionVal int, listA, listB []int, skipA, skipB int) (headA, headB, intersection *ListNode) {
 	if intersectionVal == 0 {
-		headA = ArrayToLinkedList(listA)
-		headB = ArrayToLinkedList(listB)
+		headA = ArrayToListNode(listA)
+		headB = ArrayToListNode(listB)
 		intersection = nil
 		return
 	}
 
 	var tailA, tailB *ListNode
-	headA, tailA = ArrayToLinkedListReturnTail(listA[:skipA])
-	headB, tailB = ArrayToLinkedListReturnTail(listB[:skipB])
-	intersection = ArrayToLinkedList(listA[skipA:])
+	headA, tailA = ArrayToListNodeReturnTail(listA[:skipA])
+	headB, tailB = ArrayToListNodeReturnTail(listB[:skipB])
+	intersection = ArrayToListNode(listA[skipA:])
 	tailA.Next = intersection
 	tailB.Next = intersection
 	return

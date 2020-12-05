@@ -5,7 +5,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func ArrayToLinkedList(arr []int) *ListNode {
+func ArrayToListNode(arr []int) *ListNode {
 	head := &ListNode{}
 	cur := head
 	for _, value := range arr {
@@ -18,7 +18,7 @@ func ArrayToLinkedList(arr []int) *ListNode {
 	return head.Next
 }
 
-func ArrayToLinkedListReturnTail(arr []int) (head, tail *ListNode) {
+func ArrayToListNodeReturnTail(arr []int) (head, tail *ListNode) {
 	dummyHead := &ListNode{}
 	cur := dummyHead
 	for _, value := range arr {
@@ -33,7 +33,7 @@ func ArrayToLinkedListReturnTail(arr []int) (head, tail *ListNode) {
 	return
 }
 
-func ArrayToLinkedListWithTailCycle(arr []int, pos int) *ListNode {
+func ArrayToListNodeWithTailCycle(arr []int, pos int) *ListNode {
 	dummyHead := &ListNode{}
 	cur := dummyHead
 	var tail *ListNode
@@ -54,7 +54,7 @@ func ArrayToLinkedListWithTailCycle(arr []int, pos int) *ListNode {
 	return dummyHead.Next
 }
 
-func LinkedListToArray(node *ListNode) []int {
+func ListNodeToArray(node *ListNode) []int {
 	ret := make([]int, 0)
 	cur := node
 	for cur != nil {
