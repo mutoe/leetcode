@@ -6,8 +6,6 @@ package reverse_linked_list
 // time: O(n) 0ms 100%
 // space: O(1) 2.5M 71.38%
 
-// TODO: using recursive call to resolve
-
 import (
 	. "../utils/list_node"
 )
@@ -21,15 +19,26 @@ import (
  * }
  */
 
+// func reverseList(head *ListNode) *ListNode {
+// 	var prev *ListNode
+// 	cur := head
+//
+// 	for cur != nil {
+// 		cur.Next, prev, cur = prev, cur, cur.Next
+// 	}
+//
+// 	return prev
+// }
+
+// Recursive version
 func reverseList(head *ListNode) *ListNode {
-	var prev *ListNode
-	cur := head
-
-	for cur != nil {
-		cur.Next, prev, cur = prev, cur, cur.Next
+	if head == nil || head.Next == nil {
+		return head
 	}
-
-	return prev
+	ret := reverseList(head.Next)
+	head.Next.Next = head
+	head.Next = nil
+	return ret
 }
 
 // leetcode submit region end(Prohibit modification and deletion)
