@@ -93,6 +93,10 @@ func readFile(id int, fileName string) (solution Solution, err error) {
 	timeReg, _ := regexp.Compile(`// time: (O\(.+\)) ?(\d+)ms ?([\d.]+)%`)
 	spaceReg, _ := regexp.Compile(`// space: (O\(.+\)) ?([\d.]+)M`)
 	timeMatches := timeReg.FindStringSubmatch(content)
+	if len(timeMatches) == 0 {
+		fmt.Println("Unresolved problem: ", id, "\t", fileName)
+		return solution, err
+	}
 	spaceMatches := spaceReg.FindStringSubmatch(content)
 	solution.timeComplexity = timeMatches[1]
 	solution.timeSpent = timeMatches[2]
@@ -109,15 +113,15 @@ func updateSolutionsInReadme(solutions []Solution) {
 	reg := regexp.MustCompile(`<!-- golang inject solutions start -->[\S\s]*<!-- golang inject solutions end -->`)
 	replacer := `<!-- golang inject solutions start -->
 
-|ID|Title|Time| |Space| |Ranking|
-|---:|--|--:|:--|--:|:--|--:|
+|ID|Title|Time| |Space|Ranking|
+|---:|--|--:|:--|:--|--:|
 `
 
 	for _, s := range solutions {
 		title := regexp.MustCompile(`_`).ReplaceAllString(s.titleSlug, " ")
 		titleSlug := regexp.MustCompile(`_`).ReplaceAllString(s.titleSlug, "-")
 		link := solutionUrlPrefix + titleSlug
-		rank, _ := strconv.ParseFloat(s.ranking, 2)
+		rank, _ := strconv.ParseFloat(s.ranking, 0)
 		var rankString string
 		if rank >= 90.0 {
 			rankString = fmt.Sprintf(`%g%% 🟢`, rank)
@@ -126,7 +130,7 @@ func updateSolutionsInReadme(solutions []Solution) {
 		} else {
 			rankString = fmt.Sprintf(`%g%% 🔴`, rank)
 		}
-		replacer += fmt.Sprintf("| %d\t| [%s](%s)\t| %sms\t| %s\t| %sM\t| %s\t| %s\t|\n", s.id, title, link, s.timeSpent, s.timeComplexity, s.spaceSpent, s.spaceComplexity, rankString)
+		replacer += fmt.Sprintf("| %d\t| [%s](%s)\t| %sms\t| %s\t| %s\t| %s\t|\n", s.id, title, link, s.timeSpent, s.timeComplexity, s.spaceComplexity, rankString)
 	}
 	replacer += "\n<!-- golang inject solutions end -->"
 	content = reg.ReplaceAllString(content, replacer)
