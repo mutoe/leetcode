@@ -37,7 +37,6 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 225	| [implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 231	| [power of two](https://leetcode.com/problems/power-of-two)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 232	| [implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
-| 234	| [palindrome linked list](https://leetcode.com/problems/palindrome-linked-list)	| ms	| 	| 	| 0% 🔴	|
 | 237	| [delete node in a linked list](https://leetcode.com/problems/delete-node-in-a-linked-list)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 258	| [add digits](https://leetcode.com/problems/add-digits)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 263	| [ugly number](https://leetcode.com/problems/ugly-number)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
@@ -70,7 +69,6 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1403	| [minimum subsequence in non increasing order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order)	| 4ms	| O(n*log(n))	| O(n)	| 97.44% 🟢	|
 | 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 4ms	| O(n)	| O(n)	| 91.94% 🟢	|
 | 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| O(1)	| 97.14% 🟢	|
-| 1438	| [longest continuous subarray with absolute diff less than or equal to limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)	| ms	| 	| 	| 0% 🔴	|
 | 1441	| [build an array with stack operations](https://leetcode.com/problems/build-an-array-with-stack-operations)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1528	| [shuffle string](https://leetcode.com/problems/shuffle-string)	| 4ms	| O(n)	| O(n)	| 87.5% 🟠	|
 | 1544	| [make the string great](https://leetcode.com/problems/make-the-string-great)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|

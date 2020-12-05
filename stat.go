@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -95,7 +96,7 @@ func readFile(id int, fileName string) (solution Solution, err error) {
 	timeMatches := timeReg.FindStringSubmatch(content)
 	if len(timeMatches) == 0 {
 		fmt.Println("Unresolved problem: ", id, "\t", fileName)
-		return solution, err
+		return solution, errors.New("unresolved problem")
 	}
 	spaceMatches := spaceReg.FindStringSubmatch(content)
 	solution.timeComplexity = timeMatches[1]
