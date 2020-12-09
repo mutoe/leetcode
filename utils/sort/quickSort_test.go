@@ -3,6 +3,8 @@ package sort
 import (
 	"reflect"
 	"testing"
+
+	".."
 )
 
 func TestQuickSort(t *testing.T) {
@@ -16,10 +18,32 @@ func TestQuickSort(t *testing.T) {
 	}
 }
 
-func BenchmarkQuickSort(b *testing.B) {
-
+func BenchmarkQuickSortOrdered(b *testing.B) {
+	const n = 1e5
 	for i := 0; i < b.N; i++ {
-		arr := []int{3, 2, 1, 5, 4}
+		b.StopTimer()
+		arr := utils.GenerateOrderedArray(n)
+		b.StartTimer()
+		QuickSort(arr)
+	}
+}
+
+func BenchmarkQuickSortRandom(b *testing.B) {
+	const n = 1e5
+	for i := 0; i < b.N; i++ {
+		b.StopTimer()
+		arr := utils.GenerateRandomArray(n, n)
+		b.StartTimer()
+		QuickSort(arr)
+	}
+}
+
+func BenchmarkQuickSortEquivalent(b *testing.B) {
+	const n = 1e5
+	for i := 0; i < b.N; i++ {
+		b.StopTimer()
+		arr := utils.GenerateRandomArray(n, 1)
+		b.StartTimer()
 		QuickSort(arr)
 	}
 }

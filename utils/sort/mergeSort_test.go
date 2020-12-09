@@ -3,6 +3,8 @@ package sort
 import (
 	"reflect"
 	"testing"
+
+	".."
 )
 
 func TestMergeSort(t *testing.T) {
@@ -16,10 +18,32 @@ func TestMergeSort(t *testing.T) {
 	}
 }
 
-func BenchmarkMergeSort(b *testing.B) {
-
+func BenchmarkMergeSortOrdered(b *testing.B) {
+	const n = 1e5
 	for i := 0; i < b.N; i++ {
-		arr := []int{3, 2, 1, 5, 4}
+		b.StopTimer()
+		arr := utils.GenerateOrderedArray(n)
+		b.StartTimer()
+		MergeSort(arr)
+	}
+}
+
+func BenchmarkMergeSortRandom(b *testing.B) {
+	const n = 1e5
+	for i := 0; i < b.N; i++ {
+		b.StopTimer()
+		arr := utils.GenerateRandomArray(n, n)
+		b.StartTimer()
+		MergeSort(arr)
+	}
+}
+
+func BenchmarkMergeSortEquivalent(b *testing.B) {
+	const n = 1e5
+	for i := 0; i < b.N; i++ {
+		b.StopTimer()
+		arr := utils.GenerateRandomArray(n, 1)
+		b.StartTimer()
 		MergeSort(arr)
 	}
 }
