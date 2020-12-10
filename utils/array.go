@@ -26,8 +26,14 @@ func GenerateOrderedArray(n int) []int {
 
 func GenerateRandomArray(n, scope int) []int {
 	ints := make([]int, n)
-	for i := 0; i < n; i++ {
-		ints[i] = rand.Intn(scope)
+	if scope == 1 {
+		for i := 0; i < n; i++ {
+			ints[i] = 1
+		}
+	} else {
+		for i := 0; i < n; i++ {
+			ints[i] = rand.Intn(scope)
+		}
 	}
 	return ints
 }
