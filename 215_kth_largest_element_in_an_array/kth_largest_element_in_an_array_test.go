@@ -22,6 +22,11 @@ func Test_findKthLargest(t *testing.T) {
 			args: args{[]int{3, 2, 3, 1, 2, 4, 5, 5, 6}, 4},
 			want: 4,
 		},
+		{
+			name: "test3",
+			args: args{[]int{5, 2, 4, 1, 3, 6, 0}, 4},
+			want: 3,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
