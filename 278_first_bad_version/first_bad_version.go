@@ -7,6 +7,8 @@ package first_bad_version
 // time: O(log(n)) 0ms 100%
 // space: O(1) 1.9M 100%
 
+// TODO: One pass
+
 var badVersion int
 
 func isBadVersion(version int) bool {
