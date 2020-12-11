@@ -21,6 +21,9 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 12	| [integer to roman](https://leetcode.com/problems/integer-to-roman)	| 12ms	| O(log(n))	| O(1)	| 44.82% 🔴	|
 | 20	| [valid parentheses](https://leetcode.com/problems/valid-parentheses)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 21	| [merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 35	| [search insert position](https://leetcode.com/problems/search-insert-position)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
+| 69	| [sqrtx](https://leetcode.com/problems/sqrtx)	| 8ms	| O(log(n))	| O(1)	| 19.58% 🔴	|
+| 75	| [sort colors](https://leetcode.com/problems/sort-colors)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 83	| [remove duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 125	| [valid palindrome](https://leetcode.com/problems/valid-palindrome)	| 0ms	| O(n*log(n))	| O(1)	| 100% 🟢	|
 | 141	| [linked list cycle](https://leetcode.com/problems/linked-list-cycle)	| 4ms	| O(n)	| O(1)	| 96% 🟢	|
@@ -34,28 +37,38 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 203	| [remove linked list elements](https://leetcode.com/problems/remove-linked-list-elements)	| 8ms	| O(n)	| O(1)	| 88.89% 🟠	|
 | 204	| [count primes](https://leetcode.com/problems/count-primes)	| 8ms	| O(n)	| O(n)	| 81.42% 🟠	|
 | 206	| [reverse linked list](https://leetcode.com/problems/reverse-linked-list)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 215	| [kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array)	| 4ms	| O(n*log(n))	| O(1)	| 98.66% 🟢	|
 | 225	| [implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 231	| [power of two](https://leetcode.com/problems/power-of-two)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 232	| [implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 237	| [delete node in a linked list](https://leetcode.com/problems/delete-node-in-a-linked-list)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
+| 242	| [valid anagram](https://leetcode.com/problems/valid-anagram)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 258	| [add digits](https://leetcode.com/problems/add-digits)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 263	| [ugly number](https://leetcode.com/problems/ugly-number)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
+| 278	| [first bad version](https://leetcode.com/problems/first-bad-version)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 283	| [move zeroes](https://leetcode.com/problems/move-zeroes)	| 12ms	| O(n*log(n))	| O(1)	| 6.22% 🔴	|
 | 326	| [power of three](https://leetcode.com/problems/power-of-three)	| 8ms	| O(1)	| O(1)	| 99.32% 🟢	|
 | 345	| [reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string)	| 0ms	| O(n*log(n))	| O(n)	| 100% 🟢	|
 | 349	| [intersection of two arrays](https://leetcode.com/problems/intersection-of-two-arrays)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
-| 392	| [is subsequence](https://leetcode.com/problems/is-subsequence)	| 4ms	| O(n)	| O(1)	| 100% 🟢	|
+| 350	| [intersection of two arrays ii](https://leetcode.com/problems/intersection-of-two-arrays-ii)	| 4ms	| O(n)	| O(n)	| 79.29% 🟠	|
+| 367	| [valid perfect square](https://leetcode.com/problems/valid-perfect-square)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
+| 374	| [guess number higher or lower](https://leetcode.com/problems/guess-number-higher-or-lower)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
+| 392	| [is subsequence](https://leetcode.com/problems/is-subsequence)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 415	| [add strings](https://leetcode.com/problems/add-strings)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
-| 441	| [arranging coins](https://leetcode.com/problems/arranging-coins)	| 8ms	| O(log(n))	| O(1)	| 38.46% 🔴	|
+| 441	| [arranging coins](https://leetcode.com/problems/arranging-coins)	| 8ms	| O(n)	| O(1)	| 38.46% 🔴	|
 | 468	| [validate ip address](https://leetcode.com/problems/validate-ip-address)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 496	| [next greater element i](https://leetcode.com/problems/next-greater-element-i)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
 | 507	| [perfect number](https://leetcode.com/problems/perfect-number)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 628	| [maximum product of three numbers](https://leetcode.com/problems/maximum-product-of-three-numbers)	| 28ms	| O(n)	| O(1)	| 100% 🟢	|
 | 682	| [baseball game](https://leetcode.com/problems/baseball-game)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| O(n)	| 100% 🟢	|
+| 704	| [binary search](https://leetcode.com/problems/binary-search)	| 36ms	| O(log(n))	| O(1)	| 67.19% 🟠	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| O(n)	| 99.07% 🟢	|
+| 744	| [find smallest letter greater than target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 844	| [backspace string compare](https://leetcode.com/problems/backspace-string-compare)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 852	| [peak index in a mountain array](https://leetcode.com/problems/peak-index-in-a-mountain-array)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 876	| [middle of the linked list](https://leetcode.com/problems/middle-of-the-linked-list)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 922	| [sort array by parity ii](https://leetcode.com/problems/sort-array-by-parity-ii)	| 16ms	| O(n)	| O(1)	| 98.46% 🟢	|
 | 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 933	| [number of recent calls](https://leetcode.com/problems/number-of-recent-calls)	| 128ms	| O(n)	| O(n)	| 79.37% 🟠	|
 | 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 32ms	| O(n*log(n))	| O(1)	| 96.67% 🟢	|
@@ -70,9 +83,12 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 4ms	| O(n)	| O(n)	| 91.94% 🟢	|
 | 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| O(1)	| 97.14% 🟢	|
 | 1441	| [build an array with stack operations](https://leetcode.com/problems/build-an-array-with-stack-operations)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
+| 1491	| [average salary excluding the minimum and maximum salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 1502	| [can make arithmetic progression from sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence)	| 0ms	| O(n*log(n))	| O(n)	| 100% 🟢	|
 | 1528	| [shuffle string](https://leetcode.com/problems/shuffle-string)	| 4ms	| O(n)	| O(n)	| 87.5% 🟠	|
 | 1544	| [make the string great](https://leetcode.com/problems/make-the-string-great)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1598	| [crawler log folder](https://leetcode.com/problems/crawler-log-folder)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 1640	| [check array formation through concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1672	| [richest customer wealth](https://leetcode.com/problems/richest-customer-wealth)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
 | 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| 180ms	| O(n^2)	| O(n)	| 0% 🔴	|
 
