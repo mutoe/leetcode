@@ -3,8 +3,8 @@ package is_subsequence
 // https://leetcode.com/problems/is-subsequence
 
 // level: 1
-// time: O(n) 4ms 100%
-// space: O(1) 6.5M
+// time: O(n) 0ms 100%
+// space: O(1) 2M 22.14%
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func isSubsequence(s string, t string) bool {
