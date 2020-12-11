@@ -12,12 +12,12 @@ func Test_arrangeCoins(t *testing.T) {
 		want int
 	}{
 		{
-			name: "test",
+			name: "test1",
 			args: args{5},
 			want: 2,
 		},
 		{
-			name: "test",
+			name: "test2",
 			args: args{8},
 			want: 3,
 		},

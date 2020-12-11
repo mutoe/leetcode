@@ -3,8 +3,8 @@ package arranging_coins
 // https://leetcode.com/problems/arranging-coins
 
 // level: 1
-// time: O(log(n)) 8ms 38.46%
-// space: O(1) 2.2M
+// time: O(n) 8ms 38.46%
+// space: O(1) 2.2M 23.81%
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func arrangeCoins(n int) (ret int) {
