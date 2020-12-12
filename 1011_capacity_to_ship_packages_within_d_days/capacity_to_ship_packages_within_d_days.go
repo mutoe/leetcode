@@ -5,16 +5,19 @@ import "math"
 // https://leetcode.com/problems/capacity-to-ship-packages-within-d-days
 
 // level: 2
-// time: O(n*log(n)) 48ms 29.27%
-// space: O(1) 6.6M 80.49%
+// time: O(n*log(n)) 40ms 41.46%
+// space: O(1) 6.3M 80.49%
 
 // TODO: Need to review
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func shipWithinDays(weights []int, D int) int {
-	l, r := 1, 0
+	var l, r int
 	// O(n)
 	for _, weight := range weights {
+		if weight > l {
+			l = weight
+		}
 		r += weight
 	}
 	if D == 1 {
