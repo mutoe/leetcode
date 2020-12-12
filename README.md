@@ -67,17 +67,20 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 744	| [find smallest letter greater than target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 844	| [backspace string compare](https://leetcode.com/problems/backspace-string-compare)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 852	| [peak index in a mountain array](https://leetcode.com/problems/peak-index-in-a-mountain-array)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
+| 875	| [koko eating bananas](https://leetcode.com/problems/koko-eating-bananas)	| 48ms	| O(n*log(n))	| O(1)	| 55.77% 🟠	|
 | 876	| [middle of the linked list](https://leetcode.com/problems/middle-of-the-linked-list)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 922	| [sort array by parity ii](https://leetcode.com/problems/sort-array-by-parity-ii)	| 16ms	| O(n)	| O(1)	| 98.46% 🟢	|
 | 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 933	| [number of recent calls](https://leetcode.com/problems/number-of-recent-calls)	| 128ms	| O(n)	| O(n)	| 79.37% 🟠	|
 | 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 32ms	| O(n*log(n))	| O(1)	| 96.67% 🟢	|
+| 1011	| [capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)	| 40ms	| O(n*log(n))	| O(1)	| 41.46% 🔴	|
 | 1021	| [remove outermost parentheses](https://leetcode.com/problems/remove-outermost-parentheses)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(n^2)	| O(n^2)	| 15.38% 🔴	|
 | 1047	| [remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)	| 4ms	| O(n)	| O(n)	| 87.67% 🟠	|
 | 1122	| [relative sort array](https://leetcode.com/problems/relative-sort-array)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
 | 1290	| [convert binary number in a linked list to integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1337	| [the k weakest rows in a matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix)	| 12ms	| O(n*m)	| O(n)	| 82.89% 🟠	|
+| 1351	| [count negative numbers in a sorted matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix)	| 8ms	| O(log(n))	| O(1)	| 99.26% 🟢	|
 | 1356	| [sort integers by the number of 1 bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)	| 12ms	| O(n*log(n))	| O(n)	| 13.46% 🔴	|
 | 1370	| [increasing decreasing string](https://leetcode.com/problems/increasing-decreasing-string)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1403	| [minimum subsequence in non increasing order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order)	| 4ms	| O(n*log(n))	| O(n)	| 97.44% 🟢	|
