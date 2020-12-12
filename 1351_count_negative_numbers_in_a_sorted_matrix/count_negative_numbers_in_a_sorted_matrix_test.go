@@ -36,6 +36,18 @@ func Test_countNegatives(t *testing.T) {
 			args: args{[][]int{{-1}}},
 			want: 1,
 		},
+		{
+			name: "test5",
+			args: args{[][]int{
+				{1, -1, -1, -1, -1, -1},
+				{-1, -1, -1, -1, -1, -1},
+				{-1, -1, -1, -1, -1, -1},
+				{-1, -1, -1, -1, -1, -1},
+				{-1, -1, -1, -1, -1, -1},
+				{-1, -1, -1, -1, -1, -1},
+			}},
+			want: 35,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
