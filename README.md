@@ -95,5 +95,6 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1640	| [check array formation through concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1672	| [richest customer wealth](https://leetcode.com/problems/richest-customer-wealth)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
 | 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| 180ms	| O(n^2)	| O(n)	| 0% 🔴	|
+| 1684	| [count the number of consistent strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)	| 68ms	| O(n^2)	| O(n)	| 0% 🔴	|
 
 <!-- golang inject solutions end -->
