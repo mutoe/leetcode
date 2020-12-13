@@ -3,11 +3,13 @@ package binary_search_tree
 import (
 	"fmt"
 	"testing"
+
+	. "../tree_node"
 )
 
 func TestBST_Add(t *testing.T) {
 	type fields struct {
-		root *BinaryTree
+		root *TreeNode
 		size int
 	}
 	type args struct {
@@ -22,7 +24,7 @@ func TestBST_Add(t *testing.T) {
 		{
 			name: "test1",
 			fields: fields{
-				root: &BinaryTree{Val: 2},
+				root: &TreeNode{Val: 2},
 				size: 1,
 			},
 			args: args{1},
@@ -31,9 +33,9 @@ func TestBST_Add(t *testing.T) {
 		{
 			name: "test2",
 			fields: fields{
-				root: &BinaryTree{
+				root: &TreeNode{
 					Val:  5,
-					Left: &BinaryTree{Val: 2},
+					Left: &TreeNode{Val: 2},
 				},
 				size: 2,
 			},
@@ -44,7 +46,7 @@ func TestBST_Add(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			expectSize := tt.fields.size + 1
-			b := &BST{
+			b := &BinarySearchTree{
 				root: tt.fields.root,
 				size: tt.fields.size,
 			}
@@ -76,7 +78,7 @@ func TestBST_Add(t *testing.T) {
 }
 
 func TestBST_Order(t *testing.T) {
-	b := &BST{}
+	b := &BinarySearchTree{}
 	elements := []int{5, 3, 1, 4, 6, 2, 9, 8, 7}
 	for _, element := range elements {
 		b.Add(element)

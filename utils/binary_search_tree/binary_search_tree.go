@@ -1,25 +1,23 @@
 package binary_search_tree
 
-import "fmt"
+import (
+	"fmt"
 
-type BinaryTree struct {
-	Val   int
-	Left  *BinaryTree
-	Right *BinaryTree
-}
+	. "../tree_node"
+)
 
-type BST struct {
-	root *BinaryTree
+type BinarySearchTree struct {
+	root *TreeNode
 	size int
 }
 
-func (b *BST) Add(num int) {
+func (b *BinarySearchTree) Add(num int) {
 	b.size++
 	b.root = add(b.root, num)
 }
-func add(node *BinaryTree, num int) *BinaryTree {
+func add(node *TreeNode, num int) *TreeNode {
 	if node == nil {
-		return &BinaryTree{Val: num}
+		return &TreeNode{Val: num}
 	}
 	if node.Val <= num {
 		node.Right = add(node.Right, num)
@@ -29,10 +27,10 @@ func add(node *BinaryTree, num int) *BinaryTree {
 	return node
 }
 
-func (b *BST) PrevOrder() {
+func (b *BinarySearchTree) PrevOrder() {
 	preOrder(b.root)
 }
-func preOrder(tree *BinaryTree) {
+func preOrder(tree *TreeNode) {
 	if tree == nil {
 		return
 	}
@@ -41,10 +39,10 @@ func preOrder(tree *BinaryTree) {
 	preOrder(tree.Right)
 }
 
-func (b *BST) MidOrder() {
+func (b *BinarySearchTree) MidOrder() {
 	midOrder(b.root)
 }
-func midOrder(tree *BinaryTree) {
+func midOrder(tree *TreeNode) {
 	if tree == nil {
 		return
 	}
@@ -53,10 +51,10 @@ func midOrder(tree *BinaryTree) {
 	midOrder(tree.Right)
 }
 
-func (b *BST) NextOrder() {
+func (b *BinarySearchTree) NextOrder() {
 	nextOrder(b.root)
 }
-func nextOrder(tree *BinaryTree) {
+func nextOrder(tree *TreeNode) {
 	if tree == nil {
 		return
 	}
@@ -65,8 +63,8 @@ func nextOrder(tree *BinaryTree) {
 	fmt.Println(tree.Val)
 }
 
-func (b *BST) LevelOrder() {
-	queue := make([]*BinaryTree, 0)
+func (b *BinarySearchTree) LevelOrder() {
+	queue := make([]*TreeNode, 0)
 	queue = append(queue, b.root)
 	for len(queue) > 0 {
 		cur := queue[0]
