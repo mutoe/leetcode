@@ -1,6 +1,9 @@
 package binary_search_tree
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestBST_Add(t *testing.T) {
 	type fields struct {
@@ -70,4 +73,20 @@ func TestBST_Add(t *testing.T) {
 			}
 		})
 	}
+}
+
+func TestBST_Order(t *testing.T) {
+	b := &BST{}
+	elements := []int{5, 3, 1, 4, 6, 2, 9, 8, 7}
+	for _, element := range elements {
+		b.Add(element)
+	}
+	fmt.Println("Level order")
+	b.LevelOrder()
+	fmt.Println("Previous order")
+	b.PrevOrder()
+	fmt.Println("Middle order")
+	b.MidOrder()
+	fmt.Println("Next order")
+	b.NextOrder()
 }

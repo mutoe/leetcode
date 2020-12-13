@@ -17,7 +17,6 @@ func (b *BST) Add(num int) {
 	b.size++
 	b.root = add(b.root, num)
 }
-
 func add(node *BinaryTree, num int) *BinaryTree {
 	if node == nil {
 		return &BinaryTree{Val: num}
@@ -64,4 +63,20 @@ func nextOrder(tree *BinaryTree) {
 	nextOrder(tree.Left)
 	nextOrder(tree.Right)
 	fmt.Println(tree.Val)
+}
+
+func (b *BST) LevelOrder() {
+	queue := make([]*BinaryTree, 0)
+	queue = append(queue, b.root)
+	for len(queue) > 0 {
+		cur := queue[0]
+		fmt.Println(cur.Val)
+		queue = queue[1:]
+		if cur.Left != nil {
+			queue = append(queue, cur.Left)
+		}
+		if cur.Right != nil {
+			queue = append(queue, cur.Right)
+		}
+	}
 }
