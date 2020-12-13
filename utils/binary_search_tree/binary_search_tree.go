@@ -1,5 +1,7 @@
 package binary_search_tree
 
+import "fmt"
+
 type BinaryTree struct {
 	Val   int
 	Left  *BinaryTree
@@ -11,9 +13,9 @@ type BST struct {
 	size int
 }
 
-func (this *BST) Add(num int) {
-	this.size++
-	this.root = add(this.root, num)
+func (b *BST) Add(num int) {
+	b.size++
+	b.root = add(b.root, num)
 }
 
 func add(node *BinaryTree, num int) *BinaryTree {
@@ -26,4 +28,40 @@ func add(node *BinaryTree, num int) *BinaryTree {
 		node.Left = add(node.Left, num)
 	}
 	return node
+}
+
+func (b *BST) PrevOrder() {
+	preOrder(b.root)
+}
+func preOrder(tree *BinaryTree) {
+	if tree == nil {
+		return
+	}
+	fmt.Println(tree.Val)
+	preOrder(tree.Left)
+	preOrder(tree.Right)
+}
+
+func (b *BST) MidOrder() {
+	midOrder(b.root)
+}
+func midOrder(tree *BinaryTree) {
+	if tree == nil {
+		return
+	}
+	midOrder(tree.Left)
+	fmt.Println(tree.Val)
+	midOrder(tree.Right)
+}
+
+func (b *BST) NextOrder() {
+	nextOrder(b.root)
+}
+func nextOrder(tree *BinaryTree) {
+	if tree == nil {
+		return
+	}
+	nextOrder(tree.Left)
+	nextOrder(tree.Right)
+	fmt.Println(tree.Val)
 }
