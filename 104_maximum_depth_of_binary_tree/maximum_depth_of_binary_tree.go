@@ -4,7 +4,7 @@ package maximum_depth_of_binary_tree
 
 // level: 1
 // time: O(n) 4ms 90.15%
-// space: O(1) 4.5M 18.95%
+// space: O(1) 4.4M 18.95%
 
 import . "../utils/tree_node"
 
@@ -21,21 +21,13 @@ func maxDepth(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
-	depth := 1
-	prevOrder(root, 1, &depth)
+	left := maxDepth(root.Left)
+	right := maxDepth(root.Right)
 
-	return depth
-}
-
-func prevOrder(node *TreeNode, level int, depth *int) {
-	if node == nil {
-		return
+	if left > right {
+		return left + 1
 	}
-	if level > *depth {
-		*depth = level
-	}
-	prevOrder(node.Left, level+1, depth)
-	prevOrder(node.Right, level+1, depth)
+	return right + 1
 }
 
 // leetcode submit region end(Prohibit modification and deletion)
