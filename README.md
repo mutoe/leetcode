@@ -32,6 +32,8 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 167	| [two sum ii input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)	| 4ms	| O(n*log(n))	| O(1)	| 94.87% 🟢	|
 | 168	| [excel sheet column title](https://leetcode.com/problems/excel-sheet-column-title)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 171	| [excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 193	| [valid phone numbers](https://leetcode.com/problems/valid-phone-numbers)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 195	| [tenth line](https://leetcode.com/problems/tenth-line)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 200	| [number of islands](https://leetcode.com/problems/number-of-islands)	| 0ms	| O(n*m)	| O(n)	| 100% 🟢	|
 | 202	| [happy number](https://leetcode.com/problems/happy-number)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 203	| [remove linked list elements](https://leetcode.com/problems/remove-linked-list-elements)	| 8ms	| O(n)	| O(1)	| 88.89% 🟠	|
@@ -96,5 +98,6 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1672	| [richest customer wealth](https://leetcode.com/problems/richest-customer-wealth)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
 | 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| 180ms	| O(n^2)	| O(n)	| 0% 🔴	|
 | 1684	| [count the number of consistent strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)	| 68ms	| O(n^2)	| O(n)	| 0% 🔴	|
+| 1688	| [count of matches in tournament](https://leetcode.com/problems/count-of-matches-in-tournament)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 
 <!-- golang inject solutions end -->
