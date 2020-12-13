@@ -22,11 +22,15 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 20	| [valid parentheses](https://leetcode.com/problems/valid-parentheses)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 21	| [merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 35	| [search insert position](https://leetcode.com/problems/search-insert-position)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
-| 69	| [sqrtx](https://leetcode.com/problems/sqrtx)	| 8ms	| O(log(n))	| O(1)	| 19.58% 🔴	|
 | 75	| [sort colors](https://leetcode.com/problems/sort-colors)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 83	| [remove duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 100	| [same tree](https://leetcode.com/problems/same-tree)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 101	| [symmetric tree](https://leetcode.com/problems/symmetric-tree)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 102	| [binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
+| 104	| [maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)	| 4ms	| O(n)	| O(1)	| 90.15% 🟢	|
+| 107	| [binary tree level order traversal ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
+| 108	| [convert sorted array to binary search tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)	| 108ms	| O(n)	| O(n)	| 62.9% 🟠	|
 | 125	| [valid palindrome](https://leetcode.com/problems/valid-palindrome)	| 0ms	| O(n*log(n))	| O(1)	| 100% 🟢	|
-| 141	| [linked list cycle](https://leetcode.com/problems/linked-list-cycle)	| 4ms	| O(n)	| O(1)	| 96% 🟢	|
 | 155	| [min stack](https://leetcode.com/problems/min-stack)	| 12ms	| O(n)	| O(n)	| 98.73% 🟢	|
 | 160	| [intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists)	| 44ms	| O(n)	| O(n)	| 30.1% 🔴	|
 | 167	| [two sum ii input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)	| 4ms	| O(n*log(n))	| O(1)	| 94.87% 🟢	|
@@ -71,12 +75,10 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 852	| [peak index in a mountain array](https://leetcode.com/problems/peak-index-in-a-mountain-array)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 875	| [koko eating bananas](https://leetcode.com/problems/koko-eating-bananas)	| 48ms	| O(n*log(n))	| O(1)	| 55.77% 🟠	|
 | 876	| [middle of the linked list](https://leetcode.com/problems/middle-of-the-linked-list)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
-| 922	| [sort array by parity ii](https://leetcode.com/problems/sort-array-by-parity-ii)	| 16ms	| O(n)	| O(1)	| 98.46% 🟢	|
 | 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 933	| [number of recent calls](https://leetcode.com/problems/number-of-recent-calls)	| 128ms	| O(n)	| O(n)	| 79.37% 🟠	|
 | 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 32ms	| O(n*log(n))	| O(1)	| 96.67% 🟢	|
 | 1011	| [capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)	| 40ms	| O(n*log(n))	| O(1)	| 41.46% 🔴	|
-| 1021	| [remove outermost parentheses](https://leetcode.com/problems/remove-outermost-parentheses)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(n^2)	| O(n^2)	| 15.38% 🔴	|
 | 1047	| [remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)	| 4ms	| O(n)	| O(n)	| 87.67% 🟠	|
 | 1122	| [relative sort array](https://leetcode.com/problems/relative-sort-array)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
