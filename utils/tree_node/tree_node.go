@@ -65,3 +65,16 @@ func TreeNodeToArray(root *TreeNode) []int {
 	}
 	return ret[:i+1]
 }
+
+func GetTreeDepth(node *TreeNode) int {
+	if node == nil {
+		return 0
+	}
+	left := GetTreeDepth(node.Left)
+	right := GetTreeDepth(node.Right)
+	if left > right {
+		return left + 1
+	} else {
+		return right + 1
+	}
+}
