@@ -27,7 +27,7 @@ func TestTreeNodeToArray(t *testing.T) {
 					},
 				},
 			}},
-			want: []int{2, 0, 4, 9, 8, 0, 0, 4},
+			want: []int{2, NULL, 4, 9, 8, NULL, NULL, 4},
 		},
 	}
 	for _, tt := range tests {
@@ -50,7 +50,7 @@ func TestArrayToTreeNode(t *testing.T) {
 	}{
 		{
 			name: "test1",
-			args: args{[]int{2, 0, 4, 9, 8, 0, 0, 4}},
+			args: args{[]int{2, NULL, 4, 9, 8, NULL, NULL, 4}},
 			want: &TreeNode{
 				Val: 2,
 				Right: &TreeNode{

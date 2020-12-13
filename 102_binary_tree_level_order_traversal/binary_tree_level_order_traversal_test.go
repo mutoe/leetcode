@@ -18,7 +18,7 @@ func Test_levelOrder(t *testing.T) {
 	}{
 		{
 			name: "test1",
-			args: args{[]int{3, 9, 20, 0, 0, 15, 7}},
+			args: args{[]int{3, 9, 20, NULL, NULL, 15, 7}},
 			want: [][]int{{3}, {9, 20}, {15, 7}},
 		},
 	}

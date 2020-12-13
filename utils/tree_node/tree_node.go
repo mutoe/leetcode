@@ -6,6 +6,8 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+const NULL = -1 << 63
+
 func ArrayToTreeNode(arr []int) *TreeNode {
 	if len(arr) == 0 {
 		return nil
@@ -16,11 +18,11 @@ func ArrayToTreeNode(arr []int) *TreeNode {
 	for i := 1; i < len(arr); i += 2 {
 		cur := queue[0]
 		queue = queue[1:]
-		if arr[i] != 0 {
+		if arr[i] != NULL {
 			cur.Left = &TreeNode{Val: arr[i]}
 			queue = append(queue, cur.Left)
 		}
-		if i+1 < len(arr) && arr[i+1] != 0 {
+		if i+1 < len(arr) && arr[i+1] != NULL {
 			cur.Right = &TreeNode{Val: arr[i+1]}
 			queue = append(queue, cur.Right)
 		}
@@ -43,12 +45,12 @@ func TreeNodeToArray(root *TreeNode) []int {
 			continue
 		}
 		if node.Left == nil {
-			ret = append(ret, 0)
+			ret = append(ret, NULL)
 		} else {
 			ret = append(ret, node.Left.Val)
 		}
 		if node.Right == nil {
-			ret = append(ret, 0)
+			ret = append(ret, NULL)
 		} else {
 			ret = append(ret, node.Right.Val)
 		}
@@ -56,7 +58,7 @@ func TreeNodeToArray(root *TreeNode) []int {
 	}
 	i := len(ret) - 1
 	for i >= 0 {
-		if ret[i] != 0 {
+		if ret[i] != NULL {
 			break
 		}
 		i--
