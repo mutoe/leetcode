@@ -60,13 +60,13 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 349	| [intersection of two arrays](https://leetcode.com/problems/intersection-of-two-arrays)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 350	| [intersection of two arrays ii](https://leetcode.com/problems/intersection-of-two-arrays-ii)	| 4ms	| O(n)	| O(n)	| 79.29% 🟠	|
 | 367	| [valid perfect square](https://leetcode.com/problems/valid-perfect-square)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
-| 374	| [guess number higher or lower](https://leetcode.com/problems/guess-number-higher-or-lower)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 392	| [is subsequence](https://leetcode.com/problems/is-subsequence)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 415	| [add strings](https://leetcode.com/problems/add-strings)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 468	| [validate ip address](https://leetcode.com/problems/validate-ip-address)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 496	| [next greater element i](https://leetcode.com/problems/next-greater-element-i)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
 | 501	| [find mode in binary search tree](https://leetcode.com/problems/find-mode-in-binary-search-tree)	| 12ms	| O(n)	| O(n)	| 51.16% 🟠	|
 | 507	| [perfect number](https://leetcode.com/problems/perfect-number)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
+| 530	| [minimum absolute difference in bst](https://leetcode.com/problems/minimum-absolute-difference-in-bst)	| 12ms	| O(n)	| O(1)	| 72.92% 🟠	|
 | 628	| [maximum product of three numbers](https://leetcode.com/problems/maximum-product-of-three-numbers)	| 28ms	| O(n)	| O(1)	| 100% 🟢	|
 | 682	| [baseball game](https://leetcode.com/problems/baseball-game)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| O(n)	| 100% 🟢	|
