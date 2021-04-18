@@ -4,7 +4,7 @@ package merge_two_binary_trees
 
 // level: 1
 // time: O(n) 28ms 87.26%
-// space: O(n) 8.6% 91.72%
+// space: O(n) 8.6M 91.72%
 
 import . "../utils/tree_node"
 

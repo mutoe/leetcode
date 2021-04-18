@@ -40,7 +40,7 @@ func readSolutions(dir string) (solutions []Solution) {
 	defer file.Close()
 
 	for {
-		fileInfos, err := file.Readdir(100)
+		fileInfos, err := file.Readdir(10000)
 		if err != nil {
 			if err == io.EOF {
 				break
@@ -94,11 +94,11 @@ func readFile(id int, fileName string) (solution Solution, err error) {
 	timeReg, _ := regexp.Compile(`// time: (O\(.+\)) ?(\d+)ms ?([\d.]+)%`)
 	spaceReg, _ := regexp.Compile(`// space: (O\(.+\)) ?([\d.]+)M`)
 	timeMatches := timeReg.FindStringSubmatch(content)
-	if len(timeMatches) == 0 {
+	spaceMatches := spaceReg.FindStringSubmatch(content)
+	if len(timeMatches) == 0 || len(spaceMatches) == 0 {
 		fmt.Println("Unresolved problem: ", id, "\t", fileName)
 		return solution, errors.New("unresolved problem")
 	}
-	spaceMatches := spaceReg.FindStringSubmatch(content)
 	solution.timeComplexity = timeMatches[1]
 	solution.timeSpent = timeMatches[2]
 	solution.ranking = timeMatches[3]
