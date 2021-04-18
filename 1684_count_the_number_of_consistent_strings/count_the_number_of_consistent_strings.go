@@ -3,8 +3,8 @@ package count_the_number_of_consistent_strings
 // https://leetcode.com/problems/count-the-number-of-consistent-strings
 
 // level: 1
-// time: O(n^2) 68ms 0%
-// space: O(n) 6.8M 0%
+// time: O(n^2) 36ms 55.47%
+// space: O(n) 6.5M 33.58%
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func countConsistentStrings(allowed string, words []string) int {
