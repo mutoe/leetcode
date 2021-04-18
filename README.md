@@ -117,6 +117,8 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| 4072ms	| O(n^2)	| O(n)	| 7.14% 🔴	|
 | 1684	| [count the number of consistent strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)	| 36ms	| O(n^2)	| O(n)	| 55.47% 🟠	|
 | 1688	| [count of matches in tournament](https://leetcode.com/problems/count-of-matches-in-tournament)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
+| 1822	| [sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array)	| 4ms	| O(n)	| O(1)	| 96.21% 🟢	|
+| 1827	| [minimum operations to make the array increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)	| 12ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1832	| [check if the sentence is pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 
 <!-- golang inject solutions end -->
