@@ -6,6 +6,9 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
+    env:
+      GO111MODULE: off
+
     steps:
       - uses: actions/checkout@v2
 
