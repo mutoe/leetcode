@@ -26,14 +26,14 @@ func TestMaxHeap(t *testing.T) {
 			t.Errorf("should have correct order, expect %v but got %v", expectSort, h.list)
 		}
 
-		result := make([]int, 5)
+		result := make([]int, 6)
 		for i := 0; i < len(result); i++ {
 			result[i] = h.extractMax()
 		}
-		if h.size() != 1 {
-			t.Errorf("should have size with 1, but got %d", h.size())
+		if h.size() != 0 {
+			t.Errorf("should have size with 0, but got %d", h.size())
 		}
-		if expectSort := []int{10, 6, 5, 3, 2}; !reflect.DeepEqual(expectSort, result) {
+		if expectSort := []int{10, 6, 5, 3, 2, 1}; !reflect.DeepEqual(expectSort, result) {
 			t.Errorf("should have correct order, expect %v but got %v", expectSort, result)
 		}
 	})

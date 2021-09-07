@@ -49,6 +49,11 @@ func (h *MaxHeap) siftDown(cur int) {
 }
 
 func (h *MaxHeap) extractMax() (result int) {
+	if h.size() == 1 {
+		result = h.list[0]
+		h.list = []int{}
+		return
+	}
 	result = h.list[0]
 	h.list = append([]int{h.list[h.size()-1]}, h.list[1:h.size()-1]...)
 	h.siftDown(0)
