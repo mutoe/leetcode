@@ -73,6 +73,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 468	| [validate ip address](https://leetcode.com/problems/validate-ip-address)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 496	| [next greater element i](https://leetcode.com/problems/next-greater-element-i)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
 | 501	| [find mode in binary search tree](https://leetcode.com/problems/find-mode-in-binary-search-tree)	| 12ms	| O(n)	| O(n)	| 51.16% 🟠	|
+| 506	| [relative ranks](https://leetcode.com/problems/relative-ranks)	| 12ms	| O(n*log(n))	| O(log(n))	| 93.94% 🟢	|
 | 507	| [perfect number](https://leetcode.com/problems/perfect-number)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 530	| [minimum absolute difference in bst](https://leetcode.com/problems/minimum-absolute-difference-in-bst)	| 12ms	| O(n)	| O(1)	| 72.92% 🟠	|
 | 563	| [binary tree tilt](https://leetcode.com/problems/binary-tree-tilt)	| 8ms	| O(n)	| O(1)	| 94.08% 🟢	|
@@ -83,6 +84,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 682	| [baseball game](https://leetcode.com/problems/baseball-game)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| O(n)	| 100% 🟢	|
 | 700	| [search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree)	| 24ms	| O(n)	| O(1)	| 84.67% 🟠	|
+| 703	| [kth largest element in a stream](https://leetcode.com/problems/kth-largest-element-in-a-stream)	| 32ms	| O(n*log(n))	| O(n)	| 78.22% 🟠	|
 | 704	| [binary search](https://leetcode.com/problems/binary-search)	| 36ms	| O(log(n))	| O(1)	| 67.19% 🟠	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| O(n)	| 99.07% 🟢	|
 | 744	| [find smallest letter greater than target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
@@ -97,6 +99,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1011	| [capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)	| 40ms	| O(n*log(n))	| O(1)	| 41.46% 🔴	|
 | 1021	| [remove outermost parentheses](https://leetcode.com/problems/remove-outermost-parentheses)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(n^2)	| O(n^2)	| 15.38% 🔴	|
+| 1046	| [last stone weight](https://leetcode.com/problems/last-stone-weight)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1047	| [remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)	| 4ms	| O(n)	| O(n)	| 87.67% 🟠	|
 | 1122	| [relative sort array](https://leetcode.com/problems/relative-sort-array)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
 | 1290	| [convert binary number in a linked list to integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
