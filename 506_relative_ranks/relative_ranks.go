@@ -9,7 +9,7 @@ import (
 
 // level: 1
 // time: O(n*log(n)) 12ms 93.94%
-// space: O(log(n)) 6.7M 24.24%
+// space: O(log(n)) 5.7M 75.76%
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
@@ -27,7 +27,7 @@ func convertRandToResult(rank int) string {
 }
 
 func findRelativeRanks(score []int) []string {
-	scoreIndexMap := make(map[int]int)
+	scoreIndexMap := make(map[int]int, len(score))
 	for i := 0; i < len(score); i++ {
 		scoreIndexMap[score[i]] = i
 	}
