@@ -1,6 +1,9 @@
 package relative_ranks
 
-import "strconv"
+import (
+	"sort"
+	"strconv"
+)
 
 // https://leetcode.com/problems/relative-ranks
 
@@ -9,32 +12,6 @@ import "strconv"
 // space: O(log(n)) 6.7M 24.24%
 
 //leetcode submit region begin(Prohibit modification and deletion)
-
-func QuickSort(arr []int) {
-	quickSort(arr, 0, len(arr)-1)
-}
-
-func quickSort(arr []int, l, r int) {
-	if l >= r {
-		return
-	}
-
-	i, j, x := l-1, r+1, arr[l]
-	for i < j {
-		for ok := true; ok; ok = arr[i] < x {
-			i++
-		}
-		for ok := true; ok; ok = arr[j] > x {
-			j--
-		}
-		if i < j {
-			arr[i], arr[j] = arr[j], arr[i]
-		}
-	}
-
-	quickSort(arr, l, j)
-	quickSort(arr, j+1, r)
-}
 
 func convertRandToResult(rank int) string {
 	switch rank + 1 {
@@ -55,7 +32,7 @@ func findRelativeRanks(score []int) []string {
 		scoreIndexMap[score[i]] = i
 	}
 	sortedList := score[:]
-	QuickSort(sortedList)
+	sort.Ints(sortedList)
 
 	result := make([]string, len(score))
 	for i := 0; i < len(score); i++ {
