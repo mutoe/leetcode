@@ -62,6 +62,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 283	| [move zeroes](https://leetcode.com/problems/move-zeroes)	| 12ms	| O(n*log(n))	| O(1)	| 6.22% 🔴	|
 | 326	| [power of three](https://leetcode.com/problems/power-of-three)	| 8ms	| O(1)	| O(1)	| 99.32% 🟢	|
 | 345	| [reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string)	| 0ms	| O(n*log(n))	| O(n)	| 100% 🟢	|
+| 347	| [top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements)	| 12ms	| O(n)	| O(n)	| 87.27% 🟠	|
 | 349	| [intersection of two arrays](https://leetcode.com/problems/intersection-of-two-arrays)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 350	| [intersection of two arrays ii](https://leetcode.com/problems/intersection-of-two-arrays-ii)	| 4ms	| O(n)	| O(n)	| 79.29% 🟠	|
 | 367	| [valid perfect square](https://leetcode.com/problems/valid-perfect-square)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
@@ -88,6 +89,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 704	| [binary search](https://leetcode.com/problems/binary-search)	| 36ms	| O(log(n))	| O(1)	| 67.19% 🟠	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| O(n)	| 99.07% 🟢	|
 | 744	| [find smallest letter greater than target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
+| 786	| [k th smallest prime fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction)	| 486ms	| O(n^2)	| O(n)	| 50% 🟠	|
 | 844	| [backspace string compare](https://leetcode.com/problems/backspace-string-compare)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 852	| [peak index in a mountain array](https://leetcode.com/problems/peak-index-in-a-mountain-array)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 875	| [koko eating bananas](https://leetcode.com/problems/koko-eating-bananas)	| 48ms	| O(n*log(n))	| O(1)	| 55.77% 🟠	|
@@ -111,6 +113,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 4ms	| O(n)	| O(n)	| 91.94% 🟢	|
 | 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| O(1)	| 97.14% 🟢	|
 | 1441	| [build an array with stack operations](https://leetcode.com/problems/build-an-array-with-stack-operations)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
+| 1464	| [maximum product of two elements in an array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)	| 4ms	| O(n)	| O(n)	| 91.3% 🟢	|
 | 1491	| [average salary excluding the minimum and maximum salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1502	| [can make arithmetic progression from sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence)	| 0ms	| O(n*log(n))	| O(n)	| 100% 🟢	|
 | 1528	| [shuffle string](https://leetcode.com/problems/shuffle-string)	| 4ms	| O(n)	| O(n)	| 87.5% 🟠	|
