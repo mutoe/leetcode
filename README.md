@@ -82,6 +82,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 617	| [merge two binary trees](https://leetcode.com/problems/merge-two-binary-trees)	| 28ms	| O(n)	| O(n)	| 87.26% 🟠	|
 | 628	| [maximum product of three numbers](https://leetcode.com/problems/maximum-product-of-three-numbers)	| 28ms	| O(n)	| O(1)	| 100% 🟢	|
 | 637	| [average of levels in binary tree](https://leetcode.com/problems/average-of-levels-in-binary-tree)	| 8ms	| O(n)	| O(n)	| 89.47% 🟠	|
+| 658	| [find k closest elements](https://leetcode.com/problems/find-k-closest-elements)	| 123ms	| O(n*log(n))	| O(n)	| 6.82% 🔴	|
 | 682	| [baseball game](https://leetcode.com/problems/baseball-game)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| O(n)	| 100% 🟢	|
 | 700	| [search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree)	| 24ms	| O(n)	| O(1)	| 84.67% 🟠	|
@@ -127,5 +128,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1822	| [sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array)	| 4ms	| O(n)	| O(1)	| 96.21% 🟢	|
 | 1827	| [minimum operations to make the array increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)	| 12ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1832	| [check if the sentence is pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 2000	| [reverse prefix of word](https://leetcode.com/problems/reverse-prefix-of-word)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
+| 2001	| [number of pairs of interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles)	| 284ms	| O(n)	| O(n)	| 100% 🟢	|
 
 <!-- golang inject solutions end -->
