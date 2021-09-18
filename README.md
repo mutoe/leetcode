@@ -60,6 +60,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 263	| [ugly number](https://leetcode.com/problems/ugly-number)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 278	| [first bad version](https://leetcode.com/problems/first-bad-version)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 283	| [move zeroes](https://leetcode.com/problems/move-zeroes)	| 12ms	| O(n*log(n))	| O(1)	| 6.22% 🔴	|
+| 303	| [range sum query immutable](https://leetcode.com/problems/range-sum-query-immutable)	| 24ms	| O(n)	| O(n)	| 98.41% 🟢	|
 | 326	| [power of three](https://leetcode.com/problems/power-of-three)	| 8ms	| O(1)	| O(1)	| 99.32% 🟢	|
 | 345	| [reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string)	| 0ms	| O(n*log(n))	| O(n)	| 100% 🟢	|
 | 347	| [top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements)	| 12ms	| O(n)	| O(n)	| 87.27% 🟠	|
