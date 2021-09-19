@@ -5,8 +5,8 @@ import "sort"
 // https://leetcode.com/problems/find-the-most-competitive-subsequence
 
 // level: 1
-// time: O(n^2) 4072ms 7.14%
-// space: O(n) 9.8M 35.71%
+// time: O(n^2) 2860ms 8.33%
+// space: O(n) 9.1M 87.50%
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func mostCompetitive(nums []int, k int) []int {

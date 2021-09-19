@@ -4,8 +4,8 @@ package check_if_all_1s_are_at_least_length_k_places_away
 
 // contest problem
 // level: 2
-// time: O(n) 64ms 97.14%
-// space: O(1) 6.9M
+// time: O(n) 64ms 75%
+// space: O(1) 9M 75%
 
 // leetcode submit region begin(Prohibit modification and deletion)
 func kLengthApart(nums []int, k int) bool {

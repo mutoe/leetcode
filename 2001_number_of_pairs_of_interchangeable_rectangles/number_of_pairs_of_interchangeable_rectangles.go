@@ -3,8 +3,8 @@ package number_of_pairs_of_interchangeable_rectangles
 // https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles
 
 // level: 2
-// time: O(n) 284ms 100%
-// space: O(n) 21.2M 100%
+// time: O(n) 280ms 98.28%
+// space: O(n) 20.8M 86.21%
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func interchangeableRectangles(rectangles [][]int) int64 {

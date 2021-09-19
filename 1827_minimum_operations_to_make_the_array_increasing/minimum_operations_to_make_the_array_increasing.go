@@ -3,8 +3,8 @@ package minimum_operations_to_make_the_array_increasing
 // https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing
 
 // level: 1
-// time: O(n) 12ms 100%
-// space: O(1) 5.8M 100%
+// time: O(n) 8ms 100%
+// space: O(1) 5.6M 100%
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func minOperations(nums []int) int {
