@@ -48,6 +48,9 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 203	| [remove linked list elements](https://leetcode.com/problems/remove-linked-list-elements)	| 8ms	| O(n)	| O(1)	| 88.89% 🟠	|
 | 204	| [count primes](https://leetcode.com/problems/count-primes)	| 8ms	| O(n)	| O(n)	| 81.42% 🟠	|
 | 206	| [reverse linked list](https://leetcode.com/problems/reverse-linked-list)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 208	| [implement trie prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree)	| 72ms	| O(n)	| O(n)	| 50.75% 🟠	|
+| 211	| [design add and search words data structure](https://leetcode.com/problems/design-add-and-search-words-data-structure)	| 96ms	| O(n)	| O(n)	| 38.61% 🔴	|
+| 212	| [word search ii](https://leetcode.com/problems/word-search-ii)	| 1432ms	| unknown	| O(n)	| 26.06% 🔴	|
 | 215	| [kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array)	| 4ms	| O(n*log(n))	| O(1)	| 98.66% 🟢	|
 | 225	| [implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 226	| [invert binary tree](https://leetcode.com/problems/invert-binary-tree)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
@@ -84,6 +87,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 628	| [maximum product of three numbers](https://leetcode.com/problems/maximum-product-of-three-numbers)	| 28ms	| O(n)	| O(1)	| 100% 🟢	|
 | 637	| [average of levels in binary tree](https://leetcode.com/problems/average-of-levels-in-binary-tree)	| 8ms	| O(n)	| O(n)	| 89.47% 🟠	|
 | 658	| [find k closest elements](https://leetcode.com/problems/find-k-closest-elements)	| 123ms	| O(n*log(n))	| O(n)	| 6.82% 🔴	|
+| 677	| [map sum pairs](https://leetcode.com/problems/map-sum-pairs)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 682	| [baseball game](https://leetcode.com/problems/baseball-game)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 690	| [employee importance](https://leetcode.com/problems/employee-importance)	| 12ms	| O(n)	| O(n)	| 100% 🟢	|
 | 700	| [search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree)	| 24ms	| O(n)	| O(1)	| 84.67% 🟠	|
@@ -99,7 +103,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 922	| [sort array by parity ii](https://leetcode.com/problems/sort-array-by-parity-ii)	| 16ms	| O(n)	| O(1)	| 98.46% 🟢	|
 | 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 933	| [number of recent calls](https://leetcode.com/problems/number-of-recent-calls)	| 128ms	| O(n)	| O(n)	| 79.37% 🟠	|
-| 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 32ms	| O(n*log(n))	| O(1)	| 96.67% 🟢	|
+| 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 24ms	| O(n*log(n))	| O(1)	| 100% 🟢	|
 | 1011	| [capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)	| 40ms	| O(n*log(n))	| O(1)	| 41.46% 🔴	|
 | 1021	| [remove outermost parentheses](https://leetcode.com/problems/remove-outermost-parentheses)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(n^2)	| O(n^2)	| 15.38% 🔴	|
@@ -113,7 +117,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1370	| [increasing decreasing string](https://leetcode.com/problems/increasing-decreasing-string)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1403	| [minimum subsequence in non increasing order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order)	| 4ms	| O(n*log(n))	| O(n)	| 97.44% 🟢	|
 | 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 4ms	| O(n)	| O(n)	| 91.94% 🟢	|
-| 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| O(1)	| 97.14% 🟢	|
+| 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| O(1)	| 75% 🟠	|
 | 1441	| [build an array with stack operations](https://leetcode.com/problems/build-an-array-with-stack-operations)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1464	| [maximum product of two elements in an array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)	| 4ms	| O(n)	| O(n)	| 91.3% 🟢	|
 | 1491	| [average salary excluding the minimum and maximum salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
@@ -123,13 +127,14 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1598	| [crawler log folder](https://leetcode.com/problems/crawler-log-folder)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1640	| [check array formation through concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1672	| [richest customer wealth](https://leetcode.com/problems/richest-customer-wealth)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
-| 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| 4072ms	| O(n^2)	| O(n)	| 7.14% 🔴	|
-| 1684	| [count the number of consistent strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)	| 36ms	| O(n^2)	| O(n)	| 55.47% 🟠	|
+| 1673	| [find the most competitive subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)	| 2860ms	| O(n^2)	| O(n)	| 8.33% 🔴	|
+| 1684	| [count the number of consistent strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)	| 32ms	| O(n^2)	| O(n)	| 65% 🟠	|
 | 1688	| [count of matches in tournament](https://leetcode.com/problems/count-of-matches-in-tournament)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 1822	| [sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array)	| 4ms	| O(n)	| O(1)	| 96.21% 🟢	|
-| 1827	| [minimum operations to make the array increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)	| 12ms	| O(n)	| O(1)	| 100% 🟢	|
+| 1827	| [minimum operations to make the array increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)	| 8ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1832	| [check if the sentence is pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 2000	| [reverse prefix of word](https://leetcode.com/problems/reverse-prefix-of-word)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
-| 2001	| [number of pairs of interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles)	| 284ms	| O(n)	| O(n)	| 100% 🟢	|
+| 2001	| [number of pairs of interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles)	| 280ms	| O(n)	| O(n)	| 98.28% 🟢	|
+| 2011	| [final value of variable after performing operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)	| 4ms	| O(n)	| O(1)	| 100% 🟢	|
 
 <!-- golang inject solutions end -->
