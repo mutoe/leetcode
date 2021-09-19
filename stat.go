@@ -91,8 +91,8 @@ func readFile(id int, fileName string) (solution Solution, err error) {
 	solution.id = id
 	solution.titleSlug = fileName
 	content := string(b)
-	timeReg, _ := regexp.Compile(`// time: (O\(.+\)) ?(\d+)ms ?([\d.]+)%`)
-	spaceReg, _ := regexp.Compile(`// space: (O\(.+\)) ?([\d.]+)M`)
+	timeReg, _ := regexp.Compile(`// time: (O\(.+\)|unknown) ?(\d+)ms ?([\d.]+)%`)
+	spaceReg, _ := regexp.Compile(`// space: (O\(.+\)|unknown) ?([\d.]+)M`)
 	timeMatches := timeReg.FindStringSubmatch(content)
 	spaceMatches := spaceReg.FindStringSubmatch(content)
 	if len(timeMatches) == 0 || len(spaceMatches) == 0 {
