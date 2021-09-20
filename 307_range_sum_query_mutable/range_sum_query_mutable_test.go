@@ -13,15 +13,15 @@ func TestNumArray_SumRange(t *testing.T) {
 		nums      []int
 		testcases []args
 	}{
-		//{
-		//	name: "test1",
-		//	nums: []int{1, 3, 5},
-		//	testcases: []args{
-		//		{1, []int{0, 2}, 9},
-		//		{2, []int{1, 2}, 0},
-		//		{1, []int{0, 2}, 8},
-		//	},
-		//},
+		{
+			name: "test1",
+			nums: []int{1, 3, 5},
+			testcases: []args{
+				{1, []int{0, 2}, 9},
+				{2, []int{1, 2}, 0},
+				{1, []int{0, 2}, 8},
+			},
+		},
 		{
 			name: "test2",
 			nums: []int{0, 9, 5, 7, 3},
