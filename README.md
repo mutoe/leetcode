@@ -41,6 +41,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 167	| [two sum ii input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)	| 4ms	| O(n*log(n))	| O(1)	| 94.87% 🟢	|
 | 168	| [excel sheet column title](https://leetcode.com/problems/excel-sheet-column-title)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 171	| [excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 182	| [duplicate emails](https://leetcode.com/problems/duplicate-emails)	| 343ms	| unknown	| unknown	| 42.48% 🔴	|
 | 193	| [valid phone numbers](https://leetcode.com/problems/valid-phone-numbers)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 195	| [tenth line](https://leetcode.com/problems/tenth-line)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 200	| [number of islands](https://leetcode.com/problems/number-of-islands)	| 0ms	| O(n*m)	| O(n)	| 100% 🟢	|
@@ -71,6 +72,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 350	| [intersection of two arrays ii](https://leetcode.com/problems/intersection-of-two-arrays-ii)	| 4ms	| O(n)	| O(n)	| 79.29% 🟠	|
 | 367	| [valid perfect square](https://leetcode.com/problems/valid-perfect-square)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 374	| [guess number higher or lower](https://leetcode.com/problems/guess-number-higher-or-lower)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
+| 387	| [first unique character in a string](https://leetcode.com/problems/first-unique-character-in-a-string)	| 4ms	| O(n)	| O(1)	| 97.53% 🟢	|
 | 392	| [is subsequence](https://leetcode.com/problems/is-subsequence)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 404	| [sum of left leaves](https://leetcode.com/problems/sum-of-left-leaves)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 415	| [add strings](https://leetcode.com/problems/add-strings)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
@@ -133,8 +135,10 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1822	| [sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array)	| 4ms	| O(n)	| O(1)	| 96.21% 🟢	|
 | 1827	| [minimum operations to make the array increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)	| 8ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1832	| [check if the sentence is pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 1995	| [count special quadruplets](https://leetcode.com/problems/count-special-quadruplets)	| 12ms	| O(n^4)	| O(1)	| 82.41% 🟠	|
 | 2000	| [reverse prefix of word](https://leetcode.com/problems/reverse-prefix-of-word)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 2001	| [number of pairs of interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles)	| 280ms	| O(n)	| O(n)	| 98.28% 🟢	|
+| 2006	| [count number of pairs with absolute difference k](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k)	| 4ms	| O(n^2)	| O(1)	| 100% 🟢	|
 | 2011	| [final value of variable after performing operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)	| 4ms	| O(n)	| O(1)	| 100% 🟢	|
 
 <!-- golang inject solutions end -->
