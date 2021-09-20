@@ -95,6 +95,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 700	| [search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree)	| 24ms	| O(n)	| O(1)	| 84.67% 🟠	|
 | 703	| [kth largest element in a stream](https://leetcode.com/problems/kth-largest-element-in-a-stream)	| 32ms	| O(n*log(n))	| O(n)	| 78.22% 🟠	|
 | 704	| [binary search](https://leetcode.com/problems/binary-search)	| 36ms	| O(log(n))	| O(1)	| 67.19% 🟠	|
+| 724	| [find pivot index](https://leetcode.com/problems/find-pivot-index)	| 12ms	| O(n)	| O(n)	| 100% 🟢	|
 | 733	| [flood fill](https://leetcode.com/problems/flood-fill)	| 4ms	| O(n^2)	| O(n)	| 99.07% 🟢	|
 | 744	| [find smallest letter greater than target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)	| 0ms	| O(log(n))	| O(1)	| 100% 🟢	|
 | 786	| [k th smallest prime fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction)	| 486ms	| O(n^2)	| O(n)	| 50% 🟠	|
@@ -118,10 +119,12 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1356	| [sort integers by the number of 1 bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)	| 12ms	| O(n*log(n))	| O(n)	| 13.46% 🔴	|
 | 1370	| [increasing decreasing string](https://leetcode.com/problems/increasing-decreasing-string)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1403	| [minimum subsequence in non increasing order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order)	| 4ms	| O(n*log(n))	| O(n)	| 97.44% 🟢	|
+| 1413	| [minimum value to get positive step by step sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 4ms	| O(n)	| O(n)	| 91.94% 🟢	|
 | 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| O(1)	| 75% 🟠	|
 | 1441	| [build an array with stack operations](https://leetcode.com/problems/build-an-array-with-stack-operations)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1464	| [maximum product of two elements in an array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)	| 4ms	| O(n)	| O(n)	| 91.3% 🟢	|
+| 1480	| [running sum of 1d array](https://leetcode.com/problems/running-sum-of-1d-array)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1491	| [average salary excluding the minimum and maximum salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1502	| [can make arithmetic progression from sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence)	| 0ms	| O(n*log(n))	| O(n)	| 100% 🟢	|
 | 1528	| [shuffle string](https://leetcode.com/problems/shuffle-string)	| 4ms	| O(n)	| O(n)	| 87.5% 🟠	|
@@ -135,6 +138,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1822	| [sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array)	| 4ms	| O(n)	| O(1)	| 96.21% 🟢	|
 | 1827	| [minimum operations to make the array increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)	| 8ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1832	| [check if the sentence is pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 1991	| [find the middle index in array](https://leetcode.com/problems/find-the-middle-index-in-array)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1995	| [count special quadruplets](https://leetcode.com/problems/count-special-quadruplets)	| 12ms	| O(n^4)	| O(1)	| 82.41% 🟠	|
 | 2000	| [reverse prefix of word](https://leetcode.com/problems/reverse-prefix-of-word)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 2001	| [number of pairs of interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles)	| 280ms	| O(n)	| O(n)	| 98.28% 🟢	|
