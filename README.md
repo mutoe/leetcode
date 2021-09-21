@@ -113,11 +113,13 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1046	| [last stone weight](https://leetcode.com/problems/last-stone-weight)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1047	| [remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)	| 4ms	| O(n)	| O(n)	| 87.67% 🟠	|
 | 1122	| [relative sort array](https://leetcode.com/problems/relative-sort-array)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
+| 1147	| [longest chunked palindrome decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1290	| [convert binary number in a linked list to integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1337	| [the k weakest rows in a matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix)	| 12ms	| O(n*m)	| O(n)	| 82.89% 🟠	|
 | 1351	| [count negative numbers in a sorted matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix)	| 8ms	| O(log(n))	| O(1)	| 99.26% 🟢	|
 | 1356	| [sort integers by the number of 1 bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)	| 12ms	| O(n*log(n))	| O(n)	| 13.46% 🔴	|
 | 1370	| [increasing decreasing string](https://leetcode.com/problems/increasing-decreasing-string)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
+| 1392	| [longest happy prefix](https://leetcode.com/problems/longest-happy-prefix)	| 16ms	| O(n)	| O(n)	| 72.22% 🟠	|
 | 1403	| [minimum subsequence in non increasing order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order)	| 4ms	| O(n*log(n))	| O(n)	| 97.44% 🟢	|
 | 1413	| [minimum value to get positive step by step sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 4ms	| O(n)	| O(n)	| 91.94% 🟢	|
