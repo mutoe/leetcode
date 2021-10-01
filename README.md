@@ -31,6 +31,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 104	| [maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)	| 4ms	| O(n)	| O(1)	| 90.15% 🟢	|
 | 107	| [binary tree level order traversal ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 108	| [convert sorted array to binary search tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)	| 108ms	| O(n)	| O(n)	| 62.9% 🟠	|
+| 110	| [balanced binary tree](https://leetcode.com/problems/balanced-binary-tree)	| 4ms	| O(n)	| O(n)	| 96.71% 🟢	|
 | 111	| [minimum depth of binary tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)	| 228ms	| O(n)	| O(n)	| 85.67% 🟠	|
 | 112	| [path sum](https://leetcode.com/problems/path-sum)	| 4ms	| O(n)	| O(1)	| 96.52% 🟢	|
 | 122	| [best time to buy and sell stock ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)	| 4ms	| O(n)	| O(1)	| 94.38% 🟢	|
@@ -107,6 +108,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 925	| [long pressed name](https://leetcode.com/problems/long-pressed-name)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 933	| [number of recent calls](https://leetcode.com/problems/number-of-recent-calls)	| 128ms	| O(n)	| O(n)	| 79.37% 🟠	|
 | 976	| [largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle)	| 24ms	| O(n*log(n))	| O(1)	| 100% 🟢	|
+| 989	| [add to array form of integer](https://leetcode.com/problems/add-to-array-form-of-integer)	| 24ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1011	| [capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)	| 40ms	| O(n*log(n))	| O(1)	| 41.46% 🔴	|
 | 1021	| [remove outermost parentheses](https://leetcode.com/problems/remove-outermost-parentheses)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1030	| [matrix cells in distance order](https://leetcode.com/problems/matrix-cells-in-distance-order)	| 36ms	| O(n^2)	| O(n^2)	| 15.38% 🔴	|
@@ -140,11 +142,13 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1822	| [sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array)	| 4ms	| O(n)	| O(1)	| 96.21% 🟢	|
 | 1827	| [minimum operations to make the array increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)	| 8ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1832	| [check if the sentence is pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 1984	| [minimum difference between highest and lowest of k scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores)	| 15ms	| O(n*log(n))	| O(1)	| 85.85% 🟠	|
 | 1991	| [find the middle index in array](https://leetcode.com/problems/find-the-middle-index-in-array)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1995	| [count special quadruplets](https://leetcode.com/problems/count-special-quadruplets)	| 12ms	| O(n^4)	| O(1)	| 82.41% 🟠	|
 | 2000	| [reverse prefix of word](https://leetcode.com/problems/reverse-prefix-of-word)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 2001	| [number of pairs of interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles)	| 280ms	| O(n)	| O(n)	| 98.28% 🟢	|
 | 2006	| [count number of pairs with absolute difference k](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k)	| 4ms	| O(n^2)	| O(1)	| 100% 🟢	|
 | 2011	| [final value of variable after performing operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)	| 4ms	| O(n)	| O(1)	| 100% 🟢	|
+| 2016	| [maximum difference between increasing elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 
 <!-- golang inject solutions end -->
