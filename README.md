@@ -124,6 +124,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1392	| [longest happy prefix](https://leetcode.com/problems/longest-happy-prefix)	| 16ms	| O(n)	| O(n)	| 72.22% 🟠	|
 | 1403	| [minimum subsequence in non increasing order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order)	| 4ms	| O(n*log(n))	| O(n)	| 97.44% 🟢	|
 | 1413	| [minimum value to get positive step by step sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
+| 1417	| [reformat the string](https://leetcode.com/problems/reformat-the-string)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1436	| [destination city](https://leetcode.com/problems/destination-city)	| 4ms	| O(n)	| O(n)	| 91.94% 🟢	|
 | 1437	| [check if all 1s are at least length k places away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away)	| 64ms	| O(n)	| O(1)	| 75% 🟠	|
 | 1441	| [build an array with stack operations](https://leetcode.com/problems/build-an-array-with-stack-operations)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
@@ -142,6 +143,8 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1822	| [sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array)	| 4ms	| O(n)	| O(1)	| 96.21% 🟢	|
 | 1827	| [minimum operations to make the array increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing)	| 8ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1832	| [check if the sentence is pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 1903	| [largest odd number in string](https://leetcode.com/problems/largest-odd-number-in-string)	| 4ms	| O(n)	| O(1)	| 97.06% 🟢	|
+| 1974	| [minimum time to type word using special typewriter](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1984	| [minimum difference between highest and lowest of k scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores)	| 15ms	| O(n*log(n))	| O(1)	| 85.85% 🟠	|
 | 1991	| [find the middle index in array](https://leetcode.com/problems/find-the-middle-index-in-array)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1995	| [count special quadruplets](https://leetcode.com/problems/count-special-quadruplets)	| 12ms	| O(n^4)	| O(1)	| 82.41% 🟠	|
@@ -150,5 +153,6 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 2006	| [count number of pairs with absolute difference k](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k)	| 4ms	| O(n^2)	| O(1)	| 100% 🟢	|
 | 2011	| [final value of variable after performing operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)	| 4ms	| O(n)	| O(1)	| 100% 🟢	|
 | 2016	| [maximum difference between increasing elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 2027	| [minimum moves to convert string](https://leetcode.com/problems/minimum-moves-to-convert-string)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 
 <!-- golang inject solutions end -->
