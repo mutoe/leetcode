@@ -117,11 +117,14 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1122	| [relative sort array](https://leetcode.com/problems/relative-sort-array)	| 0ms	| O(n^2)	| O(n)	| 100% 🟢	|
 | 1147	| [longest chunked palindrome decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1290	| [convert binary number in a linked list to integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 1323	| [maximum 69 number](https://leetcode.com/problems/maximum-69-number)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1337	| [the k weakest rows in a matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix)	| 12ms	| O(n*m)	| O(n)	| 82.89% 🟠	|
+| 1346	| [check if n and its double exist](https://leetcode.com/problems/check-if-n-and-its-double-exist)	| 4ms	| O(n)	| O(n)	| 87.06% 🟠	|
 | 1351	| [count negative numbers in a sorted matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix)	| 8ms	| O(log(n))	| O(1)	| 99.26% 🟢	|
 | 1356	| [sort integers by the number of 1 bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)	| 12ms	| O(n*log(n))	| O(n)	| 13.46% 🔴	|
 | 1370	| [increasing decreasing string](https://leetcode.com/problems/increasing-decreasing-string)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1392	| [longest happy prefix](https://leetcode.com/problems/longest-happy-prefix)	| 16ms	| O(n)	| O(n)	| 72.22% 🟠	|
+| 1399	| [count largest group](https://leetcode.com/problems/count-largest-group)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1403	| [minimum subsequence in non increasing order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order)	| 4ms	| O(n*log(n))	| O(n)	| 97.44% 🟢	|
 | 1413	| [minimum value to get positive step by step sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1417	| [reformat the string](https://leetcode.com/problems/reformat-the-string)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
@@ -132,6 +135,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 1480	| [running sum of 1d array](https://leetcode.com/problems/running-sum-of-1d-array)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1491	| [average salary excluding the minimum and maximum salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 1502	| [can make arithmetic progression from sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence)	| 0ms	| O(n*log(n))	| O(n)	| 100% 🟢	|
+| 1507	| [reformat date](https://leetcode.com/problems/reformat-date)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 1528	| [shuffle string](https://leetcode.com/problems/shuffle-string)	| 4ms	| O(n)	| O(n)	| 87.5% 🟠	|
 | 1544	| [make the string great](https://leetcode.com/problems/make-the-string-great)	| 0ms	| O(n)	| O(n)	| 100% 🟢	|
 | 1598	| [crawler log folder](https://leetcode.com/problems/crawler-log-folder)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
