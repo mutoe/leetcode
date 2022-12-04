@@ -34,6 +34,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 110	| [balanced binary tree](https://leetcode.com/problems/balanced-binary-tree)	| 4ms	| O(n)	| O(n)	| 96.71% 🟢	|
 | 111	| [minimum depth of binary tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)	| 228ms	| O(n)	| O(n)	| 85.67% 🟠	|
 | 112	| [path sum](https://leetcode.com/problems/path-sum)	| 4ms	| O(n)	| O(1)	| 96.52% 🟢	|
+| 119	| [pascals triangle ii](https://leetcode.com/problems/pascals-triangle-ii)	| 3ms	| O(n^2)	| O(n^2)	| 21.07% 🔴	|
 | 122	| [best time to buy and sell stock ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)	| 4ms	| O(n)	| O(1)	| 94.38% 🟢	|
 | 125	| [valid palindrome](https://leetcode.com/problems/valid-palindrome)	| 0ms	| O(n*log(n))	| O(1)	| 100% 🟢	|
 | 141	| [linked list cycle](https://leetcode.com/problems/linked-list-cycle)	| 4ms	| O(n)	| O(1)	| 96% 🟢	|
