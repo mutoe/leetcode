@@ -160,3 +160,23 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 2027	| [minimum moves to convert string](https://leetcode.com/problems/minimum-moves-to-convert-string)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 
 <!-- golang inject solutions end -->
+
+## JetBrains Leetcode Plugin Setup
+
+file name template
+```
+$!{question.frontendQuestionId}_$!velocityTool.snakeCaseName(${question.titleSlug})/$!velocityTool.snakeCaseName(${question.titleSlug})
+```
+
+code template
+```
+package $!velocityTool.snakeCaseName(${question.titleSlug})
+
+// https://leetcode.com/problems/${question.titleSlug}
+
+// level: ${question.level}
+// time:
+// space:
+
+${question.code}
+```
