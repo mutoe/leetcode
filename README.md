@@ -160,6 +160,8 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 2011	| [final value of variable after performing operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)	| 4ms	| O(n)	| O(1)	| 100% 🟢	|
 | 2016	| [maximum difference between increasing elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 2027	| [minimum moves to convert string](https://leetcode.com/problems/minimum-moves-to-convert-string)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
+| 2500	| [delete greatest value in each row](https://leetcode.com/problems/delete-greatest-value-in-each-row)	| 32ms	| O(n^2)	| O(1)	| 100% 🟢	|
+| 2501	| [longest square streak in an array](https://leetcode.com/problems/longest-square-streak-in-an-array)	| 487ms	| O(n)	| O(n)	| 100% 🟢	|
 
 <!-- golang inject solutions end -->
 
