@@ -47,6 +47,7 @@ Thanks for [leetcode editor](https://plugins.jetbrains.com/plugin/12132-leetcode
 | 193	| [valid phone numbers](https://leetcode.com/problems/valid-phone-numbers)	| 0ms	| O(n)	| O(1)	| 100% 🟢	|
 | 195	| [tenth line](https://leetcode.com/problems/tenth-line)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 200	| [number of islands](https://leetcode.com/problems/number-of-islands)	| 0ms	| O(n*m)	| O(n)	| 100% 🟢	|
+| 201	| [bitwise and of numbers range](https://leetcode.com/problems/bitwise-and-of-numbers-range)	| 626ms	| O(n)	| O(1)	| 6.25% 🔴	|
 | 202	| [happy number](https://leetcode.com/problems/happy-number)	| 0ms	| O(1)	| O(1)	| 100% 🟢	|
 | 203	| [remove linked list elements](https://leetcode.com/problems/remove-linked-list-elements)	| 8ms	| O(n)	| O(1)	| 88.89% 🟠	|
 | 204	| [count primes](https://leetcode.com/problems/count-primes)	| 8ms	| O(n)	| O(n)	| 81.42% 🟠	|
